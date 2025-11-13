@@ -1,55 +1,27 @@
+"use client"
+
 import { LinkIcon, Laptop, BarChart, Briefcase, Palette, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-
-const partners = [
-  {
-    id: 1,
-    name: "DIO",
-    logo: "💻",
-    logoBg: "from-purple-500 to-indigo-500",
-    category: "Bootcamps",
-    categoryBadge: { icon: Laptop, color: "purple" },
-    featured: true,
-    description:
-      "Digital Innovation One - Conectando talentos às oportunidades. Bootcamps gratuitos, desafios de código e mentorias com grandes empresas de tecnologia.",
-    benefit: "Acesso prioritário a bootcamps exclusivos",
-  },
-  {
-    id: 2,
-    name: "Alura",
-    logo: "💻",
-    logoBg: "from-blue-500 to-cyan-500",
-    category: "Cursos",
-    categoryBadge: { icon: BarChart, color: "blue" },
-    featured: true,
-    description:
-      "Escola online de tecnologia com mais de 1.500 cursos em programação, UX, design, data science, DevOps e muito mais. Aprenda com instrutores experientes e projetos práticos.",
-    benefit: "15% de desconto para usuários LevelUp IA nível 5+",
-  },
-  {
-    id: 3,
-    name: "Rocketseat",
-    logo: "🚀",
-    logoBg: "from-purple-500 to-pink-500",
-    category: "Cursos",
-    categoryBadge: { icon: Laptop, color: "purple" },
-    featured: true,
-    description:
-      "Plataforma de ensino de programação focada em JavaScript, React, Node.js e tecnologias modernas. Aprenda na prática com projetos reais e comunidade ativa.",
-    benefit: "10% off em planos anuais",
-  },
-]
+import { mockPartners } from "@/lib/data/mock-data"
+import { useState } from "react"
 
 const categories = [
   { id: "all", label: "Todas", icon: null },
-  { id: "tech", label: "Tecnologia", icon: Laptop },
-  { id: "data", label: "Dados", icon: BarChart },
+  { id: "Bootcamps", label: "Bootcamps", icon: Laptop },
+  { id: "Cursos", label: "Cursos", icon: BarChart },
   { id: "business", label: "Negócios", icon: Briefcase },
   { id: "design", label: "Design", icon: Palette },
 ]
 
 export default function ParceirosPage() {
+  const [selectedCategory, setSelectedCategory] = useState("all")
+
+  const filteredPartners =
+    selectedCategory === "all" ? mockPartners : mockPartners.filter((p) => p.category === selectedCategory)
+
+  const featuredPartners = filteredPartners.filter((p) => p.featured)
+
   return (
     <div className="min-h-screen">
       {/* Hero Header */}
@@ -83,8 +55,13 @@ export default function ParceirosPage() {
           {categories.map((cat) => (
             <Button
               key={cat.id}
-              variant={cat.id === "all" ? "default" : "outline"}
-              className={cat.id === "all" ? "bg-primary" : "border-border"}
+              variant={selectedCategory === cat.id ? "default" : "outline"}
+              className={
+                selectedCategory === cat.id
+                  ? "bg-primary shadow-lg shadow-primary/25"
+                  : "border-border hover:border-primary/50 transition-all hover:scale-105"
+              }
+              onClick={() => setSelectedCategory(cat.id)}
             >
               {cat.icon && <cat.icon className="w-4 h-4 mr-2" />}
               {cat.label}
@@ -100,15 +77,13 @@ export default function ParceirosPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {partners.map((partner) => (
+            {featuredPartners.map((partner) => (
               <div
                 key={partner.id}
-                className="bg-card border border-border rounded-2xl p-6 hover:border-primary/50 transition-colors flex flex-col"
+                className="bg-card border border-border rounded-2xl p-6 hover:border-primary/50 transition-all hover:scale-[1.02] flex flex-col"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div
-                    className={`w-16 h-16 bg-gradient-to-br ${partner.logoBg} rounded-2xl flex items-center justify-center text-3xl`}
-                  >
+                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center text-3xl">
                     {partner.logo}
                   </div>
                   {partner.featured && (
@@ -121,10 +96,7 @@ export default function ParceirosPage() {
 
                 <div className="flex items-center gap-2 mb-3">
                   <h3 className="font-bold text-xl">{partner.name}</h3>
-                  <Badge
-                    variant="outline"
-                    className={`border-${partner.categoryBadge.color}-500/50 text-${partner.categoryBadge.color}-400`}
-                  >
+                  <Badge variant="outline" className="border-blue-500/50 text-blue-400">
                     {partner.category}
                   </Badge>
                 </div>
@@ -138,13 +110,55 @@ export default function ParceirosPage() {
                   </p>
                 </div>
 
-                <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                  Acessar Plataforma →
+                <Button
+                  onClick={() => window.open(partner.ctaUrl, "_blank")}
+                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                >
+                  {partner.ctaText}
                 </Button>
               </div>
             ))}
           </div>
+
+          {featuredPartners.length === 0 && (
+            <div className="text-center py-12">
+              <LinkIcon className="w-16 h-16 text-muted-foreground/50 mx-auto mb-4" />
+              <p className="text-muted-foreground">Nenhum parceiro encontrado nesta categoria</p>
+            </div>
+          )}
         </div>
+
+        {/* All Partners */}
+        {filteredPartners.length > featuredPartners.length && (
+          <div>
+            <div className="flex items-center gap-2 mb-6">
+              <LinkIcon className="w-5 h-5 text-muted-foreground" />
+              <h2 className="text-2xl font-bold">Todos os Parceiros</h2>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-4">
+              {filteredPartners
+                .filter((p) => !p.featured)
+                .map((partner) => (
+                  <div
+                    key={partner.id}
+                    className="bg-card border border-border rounded-xl p-4 hover:border-primary/50 transition-all hover:scale-[1.01] flex items-center gap-4"
+                  >
+                    <div className="w-12 h-12 bg-gradient-to-br from-gray-600 to-gray-800 rounded-xl flex items-center justify-center text-2xl flex-shrink-0">
+                      {partner.logo}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h4 className="font-semibold truncate">{partner.name}</h4>
+                      <p className="text-sm text-muted-foreground truncate">{partner.category}</p>
+                    </div>
+                    <Button size="sm" variant="outline">
+                      Ver
+                    </Button>
+                  </div>
+                ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

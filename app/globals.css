@@ -143,4 +143,39 @@
   ::-webkit-scrollbar-thumb:hover {
     background: oklch(0.35 0.025 250);
   }
+
+  /* Added smooth transitions for all interactive elements */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-10px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Added focus visible styles for accessibility */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
+  }
+
+  /* Smooth page transitions */
+  button,
+  a,
+  input {
+    @apply transition-all duration-200 ease-out;
+  }
 }
