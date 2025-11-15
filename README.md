@@ -24,6 +24,7 @@ A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e 
 - Enviar mensagens para profissionais
 - Receber recomendações
 - Criar e editar perfil profissional
+- Buscar vagas 🆕
 
 **Login Demo:**
 - Email: `candidato@exemplo.com`
@@ -42,6 +43,8 @@ A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e 
   - Desbloquear conquistas e prêmios
   - Consultar Coach IA para orientação
   - Acessar cursos de parceiros
+  - Ver certificados conquistados e conquistas 🆕
+  - Editar e melhorar currículo profissional 🆕
 - ✅ **Rede profissional:**
   - Conectar com outros profissionais
   - Indicar colegas internamente
@@ -57,6 +60,9 @@ A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e 
 **Acesso gerencial**: Dashboard de gestão + Rede Profissional
 
 **Funcionalidades:**
+- Visualizar rankings completos de todos usuários com pódio 🆕
+- Ver estatísticas detalhadas da plataforma (engajamento, conclusão, usuários ativos) 🆕
+- Promover usuários para Funcionário ou RH 🆕
 - Visualizar métricas e resultados da equipe
 - Acompanhar progresso individual dos funcionários
 - Avaliar efetividade de treinamentos
@@ -64,6 +70,8 @@ A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e 
 - Buscar profissionais internos por competências
 - Fazer recomendações estratégicas
 - Acesso parcial a missões e rankings
+- Acesso ao dashboard de gestor com todas funcionalidades 🆕
+- Acesso à administração RH com todas funcionalidades 🆕
 
 **Login Demo:**
 - Email: `gestor@empresa.com`
@@ -80,7 +88,9 @@ A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e 
   - Atribuir níveis e permissões
   - Resetar progresso e senhas
 - ✅ **Configuração de conteúdo:**
-  - Criar e editar missões/desafios
+  - Adicionar, editar e excluir missões 🆕
+  - Gerenciar benefícios da empresa 🆕
+  - Criar, editar e remover desafios 🆕
   - Configurar premiações e recompensas
   - Definir níveis de dificuldade
 - ✅ **Analytics e relatórios:**
@@ -92,6 +102,7 @@ A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e 
   - Gerenciar candidatos
   - Avaliar fit cultural através de conquistas
   - Acompanhar indicações internas
+- ✅ **Acesso ao dashboard de gestor com todas funcionalidades** 🆕
 
 **Login Demo:**
 - Email: `rh@empresa.com`
@@ -108,23 +119,34 @@ A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e 
 | Missões e Desafios | ❌ | ✅ | 👁️ | ✅ |
 | Rankings | ❌ | ✅ | ✅ | ✅ |
 | Premiações | ❌ | ✅ | 👁️ | ✅ |
+| Meus Certificados | ❌ | ✅ | ❌ | ❌ |
+| Editar Currículo | ✅ | ✅ | ❌ | ❌ |
+| Buscar Vagas | ✅ | ❌ | ❌ | ❌ |
 | Coach IA | ❌ | ✅ | ❌ | ❌ |
 | Parceiros | ❌ | ✅ | ❌ | ✅ |
-| Painel Admin | ❌ | ❌ | ⚠️ | ✅ |
+| Dashboard Gestor | ❌ | ❌ | ✅ | ✅ |
+| Administração RH | ❌ | ❌ | ❌ | ✅ |
+| Promover Usuários | ❌ | ❌ | ✅ | ✅ |
 
 **Legenda:** ✅ Acesso completo | ⚠️ Acesso parcial/visualização | 👁️ Apenas visualização | ❌ Sem acesso
 
-## 🌟 Características Principais
+---
+
+### 🌟 Características Principais
 
 ### Sistema de Gamificação de Aprendizagem
 - **Missões Interativas**: 20+ cursos e treinamentos de diferentes categorias e níveis
 - **Sistema de XP e Níveis**: Progresso visual e recompensas por aprendizado
 - **Desafios Dinâmicos**: 15+ desafios limitados no tempo com recompensas exclusivas
+- **Eventos e Competições**: Desafios semanais, batalhas de equipes e torneios especializados 🆕
 - **Conquistas**: 15+ badges desbloqueáveis por progresso e marcos alcançados
 - **Rankings Competitivos**: Leaderboards para estimular competição saudável
 - **Premiações**: 15+ recompensas físicas e digitais (vouchers, cursos, etc)
 - **Coach IA**: Mentor virtual personalizado para orientação de carreira
 - **Parceiros**: Integração com plataformas de ensino (Alura, Coursera, DIO, etc)
+- **Feed Social**: Compartilhe conquistas e interaja com a comunidade 🆕
+- **Analytics de Progresso**: Dashboard personalizado com gráficos de evolução 🆕
+- **Sistema de Feedback**: Avalie missões concluídas com estrelas e comentários 🆕
 
 ### Rede Social Profissional (Global Solution - FIAP 2025)
 - **60+ Perfis Profissionais**: Base de talentos com informações completas
@@ -139,8 +161,8 @@ A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e 
 
 ## 🎓 ODS Alinhados (Objetivos de Desenvolvimento Sustentável)
 
-- **ODS 4**: Educação de Qualidade - Promove acesso a aprendizado contínuo e desenvolvimento de competências
-- **ODS 8**: Trabalho Decente e Crescimento Econômico - Facilita conexões profissionais e crescimento de carreira
+- **ODS 4**: Educação de Qualidade - Promove acesso a aprendizado contínuo e desenvolvimento de competências através de gamificação, feedback contínuo e analytics de progresso
+- **ODS 8**: Trabalho Decente e Crescimento Econômico - Facilita conexões profissionais, crescimento de carreira e networking através de feed social e eventos colaborativos
 
 ## 🛠️ Tecnologias
 
@@ -159,23 +181,38 @@ A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e 
 │   ├── page.tsx           # Dashboard principal
 │   ├── missoes/           # Explorar missões de aprendizado
 │   ├── desafios/          # Desafios dinâmicos temporários
+│   ├── eventos/            # Eventos e competições 🆕
 │   ├── rankings/          # Leaderboard competitivo
 │   ├── premiacoes/        # Conquistas e recompensas
+│   ├── meus-certificados/ # Ver certificados conquistados 🆕
+│   ├── meu-curriculo/     # Editar currículo completo 🆕
+│   ├── vagas/             # Lista de vagas (candidatos) 🆕
 │   ├── rede-profissional/ # Rede social profissional ⭐
 │   ├── parceiros/         # Plataformas parceiras de ensino
 │   ├── coach/             # Chat com Coach IA
 │   ├── perfil/            # Perfil pessoal do usuário
-│   └── admin/             # Painel administrativo (RH)
+│   ├── gestor-dashboard/  # Dashboard completo para gestores 🆕
+│   ├── rh-admin/          # Painel administrativo RH 🆕
+│   ├── admin/             # Painel administrativo (legado)
+│   └── login/             # Página de autenticação 🆕
 ├── components/            # Componentes React reutilizáveis
 │   ├── ui/               # Componentes shadcn/ui base
 │   ├── sidebar.tsx       # Navegação lateral fixa
+│   ├── auth-guard.tsx    # Proteção de rotas por role 🆕
 │   ├── mission-card.tsx  # Card de missão/curso
+│   ├── event-card.tsx    # Card de evento/competição 🆕
 │   └── error-boundary.tsx # Tratamento de erros
 ├── lib/                   # Biblioteca de utilitários
 │   ├── data/             # Dados mockados para demonstração
 │   │   ├── mock-data.ts  # Dados de gamificação
-│   │   └── professionals.json # 60+ perfis profissionais ⭐
+│   │   ├── professionals.json # 60+ perfis profissionais ⭐
+│   │   ├── jobs.ts       # Vagas de emprego 🆕
+│   │   └── events.ts     # Eventos e competições 🆕
 │   ├── store/            # Zustand state management
+│   │   ├── user-store.ts # Estado do usuário
+│   │   └── auth-store.ts # Estado de autenticação 🆕
+│   ├── types/            # TypeScript types
+│   │   └── auth.ts       # Tipos de autenticação 🆕
 │   ├── hooks/            # Custom React hooks
 │   ├── utils/            # Funções auxiliares
 │   └── constants.ts      # Constantes da aplicação
@@ -211,6 +248,8 @@ npm start        # Servidor de produção
 - Missões em andamento com botão de acesso rápido
 - Recomendações da IA baseadas no perfil
 - Conquistas recentes desbloqueadas
+- **Meu Progresso**: Visualize sua evolução completa 🆕
+- **Feed Social**: Compartilhe conquistas e interaja com a comunidade 🆕
 
 ### 🎯 Missões
 - **Busca em tempo real** por nome de missão ou conteúdo
@@ -219,6 +258,9 @@ npm start        # Servidor de produção
 - Cards com informações da plataforma (Escola DT, Alura, Coursera, etc)
 - Indicadores de duração e XP ganho
 - Botão "Iniciar Missão" com feedback visual
+- **Sistema de Feedback**: Modal de avaliação ao concluir missões 🆕
+- **Avaliação por Estrelas**: Rate de 1 a 5 estrelas 🆕
+- **Comentários**: Deixe feedback detalhado sobre a experiência 🆕
 
 ### 🔥 Desafios
 - **Estatísticas**: Desafios ativos, completados, disponíveis, XP bônus
@@ -227,6 +269,18 @@ npm start        # Servidor de produção
 - Informações de dificuldade, tipo e recompensa
 - Tempo restante e número de participantes
 - Sistema de participação com confirmação
+
+### 📅 Eventos e Competições 🆕
+- **Eventos Ativos**: Visualize desafios temporários em andamento
+- **Estatísticas Gerais**: Total de eventos, participantes e suas inscrições
+- **Tipos de Eventos**:
+  - **Desafio Sprint de Código**: Complete missões em tempo limitado
+  - **Batalha de Equipes**: Competições colaborativas entre times
+  - **Maratona de Aprendizado**: Streak de dias consecutivos
+  - **Torneio Especializado**: Competições por área (UX, Desenvolvimento, etc)
+- **Sistema de Inscrição**: Participe de eventos com um clique
+- **Prêmios Exclusivos**: XP bônus, badges especiais e troféus
+- **Histórico**: Veja eventos anteriores e suas colocações
 
 ### 🏆 Rankings
 - **Pódio visual** destacando top 2 jogadores
@@ -296,55 +350,120 @@ npm start        # Servidor de produção
 - Estatísticas em cards com ícones
 - Seção "Sobre Mim" editável
 
-### 🛠️ Admin (Painel Gestor)
-- Visão para RH e gestores
-- Métricas de usuários ativos, missões completas, desafios ativos
-- Gráficos de progresso
-- Tabela de usuários com status
-- Analytics da plataforma
+### 🏆 Meus Certificados 🆕 (Funcionários)
+- Estatísticas: Total de certificados, conquistas, horas de treinamento
+- **Certificados Profissionais**:
+  - Card visual com badge da plataforma
+  - Título, provedor, data de conclusão, carga horária
+  - Status de verificação
+  - Botões para baixar PDF e compartilhar
+- **Conquistas Desbloqueadas**:
+  - Grid com badges conquistados
+  - Nível requerido para cada conquista
+  - Descrição e ícone representativo
 
-## 📊 Estrutura de Dados (professionals.json)
+### 📄 Meu Currículo 🆕 (Candidatos e Funcionários)
+- **Editor Completo de Currículo**:
+  - Informações pessoais e contato
+  - Experiências profissionais (adicionar/editar/remover)
+  - Formação acadêmica
+  - Habilidades técnicas e soft skills
+  - Projetos e portfólio
+  - Certificações
+  - Idiomas e níveis
+  - Áreas de interesse
+- Visualização em tempo real das mudanças
+- Botão de salvar alterações
+- Export para PDF (planejado)
 
-Cada perfil na rede profissional contém os seguintes campos conforme especificação da Global Solution:
+### 💼 Vagas 🆕 (Candidatos)
+- **Grid Responsivo de Vagas**:
+  - Card com empresa, cargo, localização
+  - Tipo de contrato (CLT, PJ, Remoto)
+  - Faixa salarial
+  - Nível de senioridade
+  - Descrição e requisitos
+- **Sistema de Busca**: Por cargo, empresa ou palavra-chave
+- **Filtros Múltiplos**:
+  - Por área (Desenvolvimento, Design, Dados, etc)
+  - Por tipo (CLT, PJ, Estágio, Remoto)
+  - Por nível (Júnior, Pleno, Sênior)
+- **Modal Detalhada**:
+  - Informações completas da vaga
+  - Requisitos técnicos e soft skills
+  - Benefícios oferecidos
+  - Botão de candidatura com confirmação
 
-\`\`\`typescript
-{
-  id: number,                    // Identificador único
-  nome: string,                  // Nome completo
-  foto: string,                  // URL da foto de perfil
-  cargo: string,                 // Cargo/título profissional atual
-  resumo: string,                // Bio/headline profissional
-  localizacao: string,           // Cidade/Estado
-  area: string,                  // Área de atuação
-  habilidadesTecnicas: string[], // Hard skills e tecnologias
-  softSkills: string[],          // Competências comportamentais
-  experiencias: [{               // Histórico profissional
-    empresa: string,
-    cargo: string,
-    inicio: string,              // Data YYYY-MM
-    fim: string | null,          // null = emprego atual
-    descricao: string
-  }],
-  formacao: [{                   // Formação acadêmica
-    curso: string,
-    instituicao: string,
-    ano: number
-  }],
-  projetos: [{                   // Portfólio de projetos
-    titulo: string,
-    link: string,
-    descricao: string
-  }],
-  certificacoes: string[],       // Certificações relevantes
-  idiomas: [{                    // Idiomas e fluência
-    idioma: string,
-    nivel: string                // Básico, Intermediário, Avançado, Fluente, Nativo
-  }],
-  areaInteresses: string[]       // Tópicos de interesse/hobbies profissionais
-}
-\`\`\`
+### 📊 Dashboard Gestor 🆕 (Gestores e RH)
+- **Métricas Gerais**:
+  - Total de usuários com crescimento percentual
+  - Missões ativas vs totais
+  - Conquistas disponíveis
+  - Taxa de conclusão de treinamentos
+- **Ranking Completo de Usuários**:
+  - Pódio visual (top 3 com medalhas)
+  - Lista completa com posição, avatar, nome, nível e XP
+  - Botão "Promover" para cada usuário
+- **Estatísticas da Plataforma**:
+  - Taxa de conclusão de missões (barra de progresso)
+  - Engajamento médio
+  - Usuários ativos diários
+  - Satisfação dos usuários
+- **Modal de Promoção**:
+  - Selecionar nova função (Funcionário ou RH)
+  - Descrição das permissões de cada role
+  - Confirmação da promoção
 
-**Total**: 60 perfis completos simulando profissionais de diversas áreas e níveis de senioridade.
+### 🛠️ Administração RH 🆕 (RH)
+- **Tabs de Gestão**:
+  - **Missões**: Adicionar, editar, excluir missões de treinamento
+  - **Benefícios**: Gerenciar benefícios da empresa
+  - **Desafios**: Criar e remover desafios dinâmicos
+- **Adicionar Nova Missão**:
+  - Formulário com título, provedor, descrição
+  - Duração, XP, categoria
+  - Validação e feedback visual
+- **Adicionar Novo Benefício**:
+  - Título, descrição, ícone
+  - Salvar com confirmação
+- **Adicionar Novo Desafio**:
+  - Título, descrição, tipo
+  - XP de recompensa, prazo
+  - Configurar destaque
+- **Ações em Cards**:
+  - Botão editar (modal com formulário)
+  - Botão excluir (confirmação antes de remover)
+
+### 📅 Meu Progresso 🆕 (Funcionários)
+- **Dashboard Personalizado**: Visualize sua evolução completa
+- **Estatísticas em Cards**:
+  - Total de XP acumulado
+  - Missões ativas no momento
+  - Conquistas desbloqueadas
+  - Posição no ranking geral
+- **Gráficos Interativos**:
+  - **Evolução de XP**: Linha temporal mostrando crescimento mensal
+  - **Missões por Categoria**: Gráfico de pizza com distribuição
+  - **Habilidades Desenvolvidas**: Barra com nível de proficiência
+- **Conquistas Recentes**: Timeline com últimas badges desbloqueadas
+- **Metas do Mês**: Progresso visual de objetivos mensais
+- **Exportação**:
+  - **Baixar Relatório**: PDF completo com seu progresso
+  - **Compartilhar no LinkedIn**: Export otimizado para redes sociais
+
+### 📱 Feed Social 🆕 (Funcionários)
+- **Publicações**: Compartilhe conquistas, certificados e experiências
+- **Nova Postagem**: Crie posts personalizados sobre aprendizados
+- **Tipos de Posts**:
+  - 🏆 **Conquistas**: Badges desbloqueadas com destaque
+  - 📈 **Missões**: Cursos completados com XP ganho
+  - 📜 **Certificados**: Certificações conquistadas
+  - 💬 **Posts Livres**: Compartilhe experiências e dicas
+- **Interações**:
+  - ❤️ **Curtir**: Sistema de likes funcionais
+  - 💬 **Comentar**: Deixe comentários em posts
+  - 🔗 **Compartilhar**: Compartilhe posts com sua rede
+- **Feed Dinâmico**: Atualizações em tempo real da comunidade
 
 ## 🔐 Estado da Aplicação
 
@@ -356,6 +475,8 @@ O estado global é gerenciado com **Zustand** e persiste automaticamente no **lo
 - **Conquistas**: Badges desbloqueadas e próximas a desbloquear
 - **Desafios**: Participação, status e progresso
 - **Recompensas**: Prêmios desbloqueados e disponíveis
+- **Eventos**: Inscrições e resultados de eventos
+- **Feed Social**: Publicações e interações dos usuários
 
 ## 🌐 Deploy
 

@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname, useRouter } from 'next/navigation'
-import { Zap, Target, Trophy, Gift, LinkIcon, MessageSquare, User, LogOut, BarChart3, Crown, Users, Briefcase, FileText } from 'lucide-react'
+import { Zap, Target, Trophy, Gift, LinkIcon, MessageSquare, User, LogOut, BarChart3, Crown, Users, Briefcase, FileText, Award, Shield, TrendingUp, Calendar, Rss } from 'lucide-react'
 import { cn } from "@/lib/utils"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { useUserStore } from "@/lib/store/user-store"
@@ -19,26 +19,35 @@ const menuItemsByRole = {
     { icon: Zap, label: "Dashboard", href: "/" },
     { icon: Target, label: "Missões", href: "/missoes" },
     { icon: Target, label: "Desafios", href: "/desafios" },
+    { icon: Calendar, label: "Eventos", href: "/eventos" }, // Added new social and gamification features
     { icon: Trophy, label: "Rankings", href: "/rankings" },
     { icon: Gift, label: "Premiações", href: "/premiacoes" },
+    { icon: TrendingUp, label: "Meu Progresso", href: "/meu-progresso" },
+    { icon: Rss, label: "Feed Social", href: "/feed-social" },
+    { icon: Award, label: "Meus Certificados", href: "/meus-certificados" },
     { icon: Users, label: "Rede Profissional", href: "/rede-profissional" },
+    { icon: FileText, label: "Meu Currículo", href: "/meu-curriculo" },
     { icon: LinkIcon, label: "Parceiros", href: "/parceiros" },
     { icon: MessageSquare, label: "Coach IA", href: "/coach" },
     { icon: User, label: "Meu Perfil", href: "/perfil" },
   ],
   manager: [
-    { icon: BarChart3, label: "Dashboard Gestor", href: "/admin" },
-    { icon: Users, label: "Rede Profissional", href: "/rede-profissional" },
+    { icon: BarChart3, label: "Dashboard Gestor", href: "/gestor-dashboard" },
     { icon: Trophy, label: "Rankings", href: "/rankings" },
+    { icon: Rss, label: "Feed Social", href: "/feed-social" }, // Added social features for managers
+    { icon: Users, label: "Rede Profissional", href: "/rede-profissional" },
     { icon: Target, label: "Missões", href: "/missoes" },
     { icon: User, label: "Meu Perfil", href: "/perfil" },
   ],
   hr: [
-    { icon: BarChart3, label: "Painel RH", href: "/admin" },
+    { icon: Shield, label: "Administração RH", href: "/rh-admin" },
+    { icon: BarChart3, label: "Dashboard Gestor", href: "/gestor-dashboard" },
+    { icon: Rss, label: "Feed Social", href: "/feed-social" }, // Added social and analytics features for HR
     { icon: Users, label: "Rede Profissional", href: "/rede-profissional" },
     { icon: Trophy, label: "Rankings", href: "/rankings" },
-    { icon: Target, label: "Gestão de Missões", href: "/missoes" },
-    { icon: Gift, label: "Gestão de Prêmios", href: "/premiacoes" },
+    { icon: Calendar, label: "Eventos", href: "/eventos" },
+    { icon: Target, label: "Missões", href: "/missoes" },
+    { icon: Gift, label: "Premiações", href: "/premiacoes" },
     { icon: User, label: "Meu Perfil", href: "/perfil" },
   ],
 }
