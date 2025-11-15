@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname, useRouter } from 'next/navigation'
-import { Zap, Target, Trophy, Gift, LinkIcon, MessageSquare, User, LogOut, BarChart3, Crown, Users } from 'lucide-react'
+import { Zap, Target, Trophy, Gift, LinkIcon, MessageSquare, User, LogOut, BarChart3, Crown, Users, Briefcase, FileText } from 'lucide-react'
 import { cn } from "@/lib/utils"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { useUserStore } from "@/lib/store/user-store"
@@ -11,6 +11,8 @@ import { useAuthStore } from "@/lib/store/auth-store"
 const menuItemsByRole = {
   candidate: [
     { icon: Users, label: "Rede Profissional", href: "/rede-profissional" },
+    { icon: Briefcase, label: "Vagas", href: "/vagas" }, // Added job listings page
+    { icon: FileText, label: "Meu Currículo", href: "/meu-curriculo" }, // Added resume page
     { icon: User, label: "Meu Perfil", href: "/perfil" },
   ],
   employee: [
