@@ -1,9 +1,10 @@
-# LevelUp IA - Gamificação da Aprendizagem Corporativa
+# LevelUp IA - Gamificação da Aprendizagem Corporativa + Rede Profissional
 
-Plataforma de gamificação para treinamento profissional corporativo. Transforme o aprendizado em uma jornada de jogo com missões, rankings, conquistas e recompensas.
+Plataforma completa que combina gamificação para treinamento profissional corporativo com uma rede social profissional estilo LinkedIn. Transforme o aprendizado em uma jornada de jogo com missões, rankings, conquistas e conecte-se com profissionais de diversas áreas.
 
-## Características
+## Características Principais
 
+### Sistema de Gamificação
 - **Missões Interativas**: 20+ cursos e treinamentos de diferentes categorias e níveis
 - **Sistema de Gamificação**: XP, níveis, streaks e rankings competitivos
 - **Desafios Dinâmicos**: 15+ desafios limitados no tempo com recompensas exclusivas
@@ -13,6 +14,16 @@ Plataforma de gamificação para treinamento profissional corporativo. Transform
 - **Rankings**: Sistema de leaderboard com pódio e destaques
 - **Parceiros**: Integração com plataformas de ensino populares
 
+### Rede Profissional (Global Solution - FIAP 2025)
+- **60+ Perfis Profissionais**: Base completa com profissionais de diversas áreas
+- **Cards Interativos**: Foto, cargo, localização e principais habilidades
+- **Modal Detalhada**: Informações completas de cada profissional
+- **Sistema de Busca**: Busca por nome, cargo ou palavras-chave
+- **Filtros Funcionais**: Por área, cidade e tecnologia
+- **Ações Sociais**: Recomendar profissionais e enviar mensagens
+- **Design Responsivo**: Adaptável para todos os dispositivos
+- **Dark Mode**: Interface moderna em tema escuro
+
 ## ODS Alinhados
 
 - **ODS 4**: Educação de Qualidade
@@ -21,9 +32,9 @@ Plataforma de gamificação para treinamento profissional corporativo. Transform
 ## Tecnologias
 
 - **Framework**: Next.js 16 com App Router
+- **Language**: TypeScript
 - **UI**: Tailwind CSS v4 + shadcn/ui
 - **State Management**: Zustand com persistência
-- **TypeScript**: Tipagem completa
 - **Analytics**: Vercel Analytics
 - **Ícones**: Lucide React
 
@@ -36,6 +47,7 @@ Plataforma de gamificação para treinamento profissional corporativo. Transform
 │   ├── desafios/          # Desafios dinâmicos
 │   ├── rankings/          # Leaderboard
 │   ├── premiacoes/        # Conquistas e recompensas
+│   ├── rede-profissional/ # Rede social profissional ⭐
 │   ├── parceiros/         # Plataformas parceiras
 │   ├── coach/             # Coach IA
 │   ├── perfil/            # Perfil do usuário
@@ -47,6 +59,8 @@ Plataforma de gamificação para treinamento profissional corporativo. Transform
 │   └── error-boundary.tsx # Error handling
 ├── lib/                   # Utilitários
 │   ├── data/             # Mock data
+│   │   ├── mock-data.ts  # Dados de gamificação
+│   │   └── professionals.json # 60+ perfis profissionais ⭐
 │   ├── store/            # Zustand store
 │   ├── hooks/            # Custom hooks
 │   └── utils/            # Funções auxiliares
@@ -57,7 +71,7 @@ Plataforma de gamificação para treinamento profissional corporativo. Transform
 
 \`\`\`bash
 # Clone o repositório
-git clone <repository-url>
+git clone https://github.com/Maykesantos98/levelup
 
 # Instale as dependências
 npm install
@@ -71,6 +85,8 @@ npm run build
 # Execute em produção
 npm start
 \`\`\`
+
+Acesse a aplicação em: http://localhost:3000
 
 ## Funcionalidades por Página
 
@@ -103,6 +119,27 @@ npm start
 - Próximas recompensas com progresso
 - Sistema de níveis para desbloqueio
 
+### Rede Profissional ⭐ (Novo)
+- **Cards de Perfil**: Exibição de 60+ profissionais com foto, cargo e skills
+- **Busca Inteligente**: Busca em tempo real por nome, cargo ou descrição
+- **Filtros Múltiplos**: 
+  - Por área (Desenvolvimento, Design, Dados, Marketing, etc.)
+  - Por cidade (São Paulo, Rio de Janeiro, etc.)
+  - Por tecnologia (React, Python, AWS, etc.)
+- **Modal Completa**: Ao clicar em um card, exibe:
+  - Informações pessoais e resumo profissional
+  - Experiências profissionais detalhadas com datas
+  - Formação acadêmica completa
+  - Habilidades técnicas e soft skills
+  - Projetos com links
+  - Certificações
+  - Idiomas com níveis de proficiência
+  - Áreas de interesse
+- **Botões Funcionais**:
+  - "Recomendar Profissional": Modal de confirmação
+  - "Enviar Mensagem": Modal para envio de mensagem
+- **Design Responsivo**: Grid adaptável (1-4 colunas conforme tela)
+
 ### Parceiros
 - Filtros por categoria
 - Plataformas em destaque
@@ -118,6 +155,60 @@ npm start
 - Edição de perfil
 - Banner personalizado
 
+## Estrutura de Dados (Professionals.json)
+
+Cada perfil profissional contém:
+
+\`\`\`typescript
+{
+  id: number,
+  nome: string,
+  foto: string,
+  cargo: string,
+  resumo: string,
+  localizacao: string,
+  area: string,
+  habilidadesTecnicas: string[],
+  softSkills: string[],
+  experiencias: [{
+    empresa: string,
+    cargo: string,
+    inicio: string,
+    fim: string | null,
+    descricao: string
+  }],
+  formacao: [{
+    curso: string,
+    instituicao: string,
+    ano: number
+  }],
+  projetos: [{
+    titulo: string,
+    link: string,
+    descricao: string
+  }],
+  certificacoes: string[],
+  idiomas: [{
+    idioma: string,
+    nivel: string
+  }],
+  areaInteresses: string[]
+}
+\`\`\`
+
+## Requisitos da Global Solution ✅
+
+- ✅ 60+ perfis profissionais simulados em JSON
+- ✅ Cards com nome, foto, cargo e principais skills
+- ✅ Modal interativa com dados completos
+- ✅ Sistema de busca funcional
+- ✅ Filtros por área, cidade e tecnologia
+- ✅ Botões "Recomendar" e "Enviar Mensagem" funcionando
+- ✅ Design responsivo com Tailwind CSS
+- ✅ Dark Mode implementado
+- ✅ Built com HTML + React + Tailwind
+- ✅ 10+ commits no repositório
+
 ## Estado da Aplicação
 
 O estado global é gerenciado com Zustand e inclui:
@@ -128,13 +219,27 @@ O estado global é gerenciado com Zustand e inclui:
 
 Dados são persistidos no localStorage automaticamente.
 
+## Deploy
+
+**Link do Deploy**: [Será adicionado após deploy na Vercel]
+
+**Repositório GitHub**: https://github.com/Maykesantos98/levelup
+
+## Integrantes do Grupo
+
+- **Mayke Costa Santos** - RM: 200544368
+
+## Usuários e Senhas
+
+Este projeto é um protótipo frontend. Não possui sistema de autenticação real - todos os dados são mockados para demonstração.
+
 ## Melhorias para Produção Futura
 
 1. **Backend Real**: Substituir mock data por API REST/GraphQL
 2. **Autenticação**: Implementar login/registro com JWT ou OAuth
 3. **Banco de Dados**: Integrar PostgreSQL/MongoDB
-4. **Real-time**: WebSockets para rankings e desafios ao vivo
-5. **Notificações**: Push notifications para novos desafios
+4. **Real-time**: WebSockets para rankings e networking ao vivo
+5. **Notificações**: Push notifications para novos desafios e conexões
 6. **Analytics Avançado**: Tracking de eventos e conversões
 7. **Testes**: Jest + React Testing Library
 8. **CI/CD**: Pipeline automatizado
@@ -150,8 +255,8 @@ Dados são persistidos no localStorage automaticamente.
 
 ## Licença
 
-Proprietary - Todos os direitos reservados
+Projeto Acadêmico - Global Solution FIAP 2025
 
 ## Contato
 
-Para dúvidas ou suporte, entre em contato através do sistema.
+Mayke Costa Santos - maykecostasantos12@gmail.com

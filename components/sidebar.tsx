@@ -1,8 +1,8 @@
 "use client"
 
 import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Zap, Target, Trophy, Gift, LinkIcon, MessageSquare, User, LogOut, BarChart3, Crown } from "lucide-react"
+import { usePathname } from 'next/navigation'
+import { Zap, Target, Trophy, Gift, LinkIcon, MessageSquare, User, LogOut, BarChart3, Crown, Users } from 'lucide-react'
 import { cn } from "@/lib/utils"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { useUserStore } from "@/lib/store/user-store"
@@ -13,6 +13,7 @@ const mainMenuItems = [
   { icon: Target, label: "Desafios", href: "/desafios" },
   { icon: Trophy, label: "Rankings", href: "/rankings" },
   { icon: Gift, label: "Premiações", href: "/premiacoes" },
+  { icon: Users, label: "Rede Profissional", href: "/rede-profissional" }, // Added professional network menu item
   { icon: LinkIcon, label: "Parceiros", href: "/parceiros" },
   { icon: MessageSquare, label: "Coach IA", href: "/coach" },
   { icon: User, label: "Meu Perfil", href: "/perfil" },

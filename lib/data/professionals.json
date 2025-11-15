@@ -1,0 +1,1977 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Silva Santos",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Engenheira de Software Senior",
+    "resumo": "Especialista em desenvolvimento web full-stack com foco em React e Node.js. Apaixonada por criar soluções escaláveis.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Node.js", "TypeScript", "AWS", "Docker", "PostgreSQL"],
+    "softSkills": ["Liderança", "Comunicação", "Trabalho em equipe", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "Tech Solutions",
+        "cargo": "Engenheira de Software Senior",
+        "inicio": "2021-03",
+        "fim": null,
+        "descricao": "Desenvolvimento de aplicações web escaláveis usando React e Node.js"
+      },
+      {
+        "empresa": "Digital Innovations",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2018-06",
+        "fim": "2021-02",
+        "descricao": "Criação de sistemas corporativos e APIs RESTful"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MSc em Ciência da Computação",
+        "instituicao": "FIAP",
+        "ano": 2021
+      },
+      {
+        "curso": "Bacharelado em Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de E-commerce",
+        "link": "https://github.com/example",
+        "descricao": "Sistema completo de vendas online com processamento de pagamentos"
+      }
+    ],
+    "certificacoes": ["AWS Certified Developer", "React Advanced Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Inteligência Artificial", "Cloud Computing", "DevOps"]
+  },
+  {
+    "id": 2,
+    "nome": "Carlos Eduardo Mendes",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Product Manager",
+    "resumo": "Product Manager com 8 anos de experiência em produtos digitais e transformação ágil.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Gestão de Produtos",
+    "habilidadesTecnicas": ["Jira", "Figma", "SQL", "Analytics", "A/B Testing"],
+    "softSkills": ["Liderança", "Negociação", "Visão estratégica", "Empatia"],
+    "experiencias": [
+      {
+        "empresa": "StartupXYZ",
+        "cargo": "Product Manager Senior",
+        "inicio": "2020-01",
+        "fim": null,
+        "descricao": "Gerenciamento de roadmap de produtos digitais com foco em growth"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Produtos Digitais",
+        "instituicao": "FGV",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Certified Scrum Product Owner", "Product Management Certificate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Product Strategy", "User Experience", "Growth Hacking"]
+  },
+  {
+    "id": 3,
+    "nome": "Mariana Costa Lima",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "UX/UI Designer",
+    "resumo": "Designer de experiência focada em criar interfaces intuitivas e acessíveis.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Adobe XD", "Sketch", "HTML", "CSS", "Design System"],
+    "softSkills": ["Criatividade", "Empatia", "Comunicação", "Atenção aos detalhes"],
+    "experiencias": [
+      {
+        "empresa": "Design Studio",
+        "cargo": "UX/UI Designer Senior",
+        "inicio": "2019-08",
+        "fim": null,
+        "descricao": "Criação de interfaces e design systems para produtos digitais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "ESPM",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Design System Corporativo",
+        "link": "https://dribbble.com/example",
+        "descricao": "Sistema de design completo para empresa multinacional"
+      }
+    ],
+    "certificacoes": ["Google UX Design Certificate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Acessibilidade", "Design Inclusivo", "Motion Design"]
+  },
+  {
+    "id": 4,
+    "nome": "Rafael Oliveira Santos",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Data Scientist",
+    "resumo": "Cientista de dados especializado em machine learning e análise preditiva.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "R", "TensorFlow", "PyTorch", "SQL", "Tableau"],
+    "softSkills": ["Pensamento analítico", "Comunicação", "Curiosidade", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "Data Corp",
+        "cargo": "Data Scientist Senior",
+        "inicio": "2020-06",
+        "fim": null,
+        "descricao": "Desenvolvimento de modelos de ML para análise preditiva"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Estatística",
+        "instituicao": "UNICAMP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Google Data Analytics Certificate", "AWS Machine Learning Specialty"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Deep Learning", "NLP", "Computer Vision"]
+  },
+  {
+    "id": 5,
+    "nome": "Juliana Ferreira Alves",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Gerente de Marketing Digital",
+    "resumo": "Especialista em estratégias digitais e growth marketing com 10 anos de experiência.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Google Ads", "Facebook Ads", "SEO", "Analytics", "CRM"],
+    "softSkills": ["Criatividade", "Liderança", "Análise crítica", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Marketing Pro",
+        "cargo": "Gerente de Marketing Digital",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Gestão de campanhas digitais e estratégias de growth"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Marketing Digital",
+        "instituicao": "FGV",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Google Ads Certification", "HubSpot Inbound Marketing"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Growth Marketing", "Marketing Analytics", "Branding"]
+  },
+  {
+    "id": 6,
+    "nome": "Pedro Henrique Costa",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "DevOps Engineer",
+    "resumo": "Engenheiro DevOps com expertise em cloud infrastructure e CI/CD pipelines.",
+    "localizacao": "Brasília/DF",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Kubernetes", "Docker", "AWS", "Terraform", "Jenkins", "Python"],
+    "softSkills": ["Trabalho em equipe", "Proatividade", "Resolução de problemas", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Cloud Services",
+        "cargo": "DevOps Engineer",
+        "inicio": "2019-09",
+        "fim": null,
+        "descricao": "Implementação de infraestrutura cloud e automação de processos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "UnB",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Solutions Architect", "Kubernetes Administrator"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Cloud Native", "Automation", "Infrastructure as Code"]
+  },
+  {
+    "id": 7,
+    "nome": "Beatriz Rodrigues Silva",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Analista de Negócios",
+    "resumo": "Analista de negócios com foco em processos e transformação digital.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Negócios",
+    "habilidadesTecnicas": ["BPMN", "SQL", "Power BI", "Excel Avançado", "Jira"],
+    "softSkills": ["Análise crítica", "Comunicação", "Organização", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "Consulting Group",
+        "cargo": "Analista de Negócios Senior",
+        "inicio": "2017-05",
+        "fim": null,
+        "descricao": "Análise e otimização de processos empresariais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração de Empresas",
+        "instituicao": "UFRGS",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["CBAP", "Agile Business Analysis"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Business Process", "Digital Transformation", "Data Analytics"]
+  },
+  {
+    "id": 8,
+    "nome": "Lucas Martins Souza",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Mobile Developer",
+    "resumo": "Desenvolvedor mobile especializado em React Native e aplicativos híbridos.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React Native", "Flutter", "iOS", "Android", "Firebase", "Redux"],
+    "softSkills": ["Criatividade", "Trabalho em equipe", "Adaptabilidade", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "Mobile Apps Co",
+        "cargo": "Mobile Developer",
+        "inicio": "2019-02",
+        "fim": null,
+        "descricao": "Desenvolvimento de aplicativos mobile multiplataforma"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App de Delivery",
+        "link": "https://github.com/example",
+        "descricao": "Aplicativo completo de delivery com geolocalização"
+      }
+    ],
+    "certificacoes": ["React Native Certified"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Mobile Development", "UI/UX", "Performance Optimization"]
+  },
+  {
+    "id": 9,
+    "nome": "Fernanda Almeida Costa",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Gerente de Projetos",
+    "resumo": "Gerente de projetos certificada PMP com experiência em metodologias ágeis e tradicionais.",
+    "localizacao": "Salvador/BA",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["MS Project", "Jira", "Scrum", "PMI", "Risk Management"],
+    "softSkills": ["Liderança", "Organização", "Negociação", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Project Solutions",
+        "cargo": "Gerente de Projetos",
+        "inicio": "2016-08",
+        "fim": null,
+        "descricao": "Gestão de projetos complexos com equipes multidisciplinares"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Produção",
+        "instituicao": "UFBA",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["PMP", "Certified ScrumMaster"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Francês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Agile", "Risk Management", "Leadership"]
+  },
+  {
+    "id": 10,
+    "nome": "Gabriel Santos Lima",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Arquiteto de Software",
+    "resumo": "Arquiteto de software com foco em microsserviços e arquiteturas escaláveis.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Java", "Spring Boot", "Microservices", "Kubernetes", "AWS", "MongoDB"],
+    "softSkills": ["Pensamento estratégico", "Liderança técnica", "Mentoria", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Enterprise Tech",
+        "cargo": "Arquiteto de Software",
+        "inicio": "2018-01",
+        "fim": null,
+        "descricao": "Design e implementação de arquiteturas de software escaláveis"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Engenharia de Software",
+        "instituicao": "IME-USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Solutions Architect Professional", "Oracle Certified Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Microservices", "Cloud Architecture", "Distributed Systems"]
+  },
+  {
+    "id": 11,
+    "nome": "Camila Oliveira Freitas",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Scrum Master",
+    "resumo": "Scrum Master certificada com experiência em transformação ágil de equipes.",
+    "localizacao": "Recife/PE",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Scrum", "Kanban", "Jira", "Confluence", "Agile Coaching"],
+    "softSkills": ["Facilitação", "Empatia", "Resolução de conflitos", "Liderança servidora"],
+    "experiencias": [
+      {
+        "empresa": "Agile Company",
+        "cargo": "Scrum Master",
+        "inicio": "2018-06",
+        "fim": null,
+        "descricao": "Facilitação de cerimônias ágeis e coaching de equipes"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Gestão de TI",
+        "instituicao": "UFPE",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Professional Scrum Master", "SAFe Agilist"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Agile Transformation", "Team Coaching", "Organizational Change"]
+  },
+  {
+    "id": 12,
+    "nome": "Rodrigo Ferreira Nunes",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Analista de Segurança da Informação",
+    "resumo": "Especialista em cibersegurança e proteção de dados corporativos.",
+    "localizacao": "São Paulo/SP",
+    "area": "Segurança",
+    "habilidadesTecnicas": ["Penetration Testing", "SIEM", "Firewall", "LGPD", "ISO 27001", "Python"],
+    "softSkills": ["Atenção aos detalhes", "Análise crítica", "Ética", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "CyberSec Solutions",
+        "cargo": "Analista de Segurança Senior",
+        "inicio": "2017-09",
+        "fim": null,
+        "descricao": "Implementação de políticas de segurança e testes de penetração"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Segurança da Informação",
+        "instituicao": "FIAP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["CISSP", "CEH", "OSCP"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Cybersecurity", "Ethical Hacking", "Data Privacy"]
+  },
+  {
+    "id": 13,
+    "nome": "Amanda Silva Cardoso",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Content Designer",
+    "resumo": "Content designer focada em UX writing e estratégias de conteúdo digital.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": ["UX Writing", "Content Strategy", "SEO", "Figma", "Analytics"],
+    "softSkills": ["Criatividade", "Empatia", "Comunicação", "Adaptabilidade"],
+    "experiencias": [
+      {
+        "empresa": "Digital Content",
+        "cargo": "Content Designer",
+        "inicio": "2019-04",
+        "fim": null,
+        "descricao": "Criação de microtextos e estratégias de conteúdo para produtos digitais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Jornalismo",
+        "instituicao": "PUC-SP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Google UX Design Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Português", "nivel": "Nativo" }
+    ],
+    "areaInteresses": ["UX Writing", "Content Strategy", "Information Architecture"]
+  },
+  {
+    "id": 14,
+    "nome": "Thiago Alves Pereira",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Backend Developer",
+    "resumo": "Desenvolvedor backend especializado em APIs e arquiteturas escaláveis.",
+    "localizacao": "Campinas/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Node.js", "Python", "PostgreSQL", "MongoDB", "Redis", "GraphQL"],
+    "softSkills": ["Trabalho em equipe", "Proatividade", "Resolução de problemas", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Tech Backend",
+        "cargo": "Backend Developer",
+        "inicio": "2019-07",
+        "fim": null,
+        "descricao": "Desenvolvimento de APIs RESTful e GraphQL"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UNICAMP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "API de Pagamentos",
+        "link": "https://github.com/example",
+        "descricao": "API completa de processamento de pagamentos"
+      }
+    ],
+    "certificacoes": ["Node.js Certified Developer"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["API Development", "Microservices", "Database Optimization"]
+  },
+  {
+    "id": 15,
+    "nome": "Larissa Martins Costa",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "QA Engineer",
+    "resumo": "Engenheira de qualidade com foco em automação de testes e CI/CD.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Qualidade",
+    "habilidadesTecnicas": ["Selenium", "Cypress", "Jest", "JUnit", "Postman", "Jenkins"],
+    "softSkills": ["Atenção aos detalhes", "Organização", "Comunicação", "Pensamento crítico"],
+    "experiencias": [
+      {
+        "empresa": "Quality Assurance Co",
+        "cargo": "QA Engineer",
+        "inicio": "2018-10",
+        "fim": null,
+        "descricao": "Automação de testes e garantia de qualidade de software"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UFRJ",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["ISTQB Certified Tester"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Test Automation", "Performance Testing", "Quality Assurance"]
+  },
+  {
+    "id": 16,
+    "nome": "Bruno Henrique Dias",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Business Intelligence Analyst",
+    "resumo": "Analista de BI especializado em visualização de dados e insights de negócios.",
+    "localizacao": "Goiânia/GO",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Power BI", "Tableau", "SQL", "Python", "DAX", "Excel"],
+    "softSkills": ["Análise crítica", "Comunicação", "Pensamento estratégico", "Storytelling"],
+    "experiencias": [
+      {
+        "empresa": "Data Insights",
+        "cargo": "BI Analyst",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Criação de dashboards e análises de dados para tomada de decisão"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Estatística",
+        "instituicao": "UFG",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Microsoft Power BI Certification", "Tableau Desktop Specialist"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Data Visualization", "Business Analytics", "Data Storytelling"]
+  },
+  {
+    "id": 17,
+    "nome": "Patricia Sousa Ribeiro",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Tech Lead",
+    "resumo": "Líder técnica com experiência em gestão de equipes e arquitetura de software.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["JavaScript", "React", "Node.js", "Architecture", "Team Management"],
+    "softSkills": ["Liderança", "Mentoria", "Comunicação", "Visão estratégica"],
+    "experiencias": [
+      {
+        "empresa": "Tech Leaders",
+        "cargo": "Tech Lead",
+        "inicio": "2017-02",
+        "fim": null,
+        "descricao": "Liderança de equipe de desenvolvimento e definição de arquitetura"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "ITA",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Solutions Architect", "Certified Team Leader"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Technical Leadership", "Software Architecture", "Team Development"]
+  },
+  {
+    "id": 18,
+    "nome": "Marcelo Santos Rocha",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Cloud Solutions Architect",
+    "resumo": "Arquiteto de soluções cloud com expertise em AWS e Azure.",
+    "localizacao": "São Paulo/SP",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["AWS", "Azure", "Terraform", "Kubernetes", "Docker", "Serverless"],
+    "softSkills": ["Pensamento estratégico", "Comunicação", "Resolução de problemas", "Liderança"],
+    "experiencias": [
+      {
+        "empresa": "Cloud Experts",
+        "cargo": "Cloud Solutions Architect",
+        "inicio": "2018-05",
+        "fim": null,
+        "descricao": "Design de soluções cloud escaláveis e seguras"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Solutions Architect Professional", "Azure Solutions Architect Expert"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Cloud Computing", "Infrastructure as Code", "Serverless"]
+  },
+  {
+    "id": 19,
+    "nome": "Isabela Ferreira Gomes",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Brand Designer",
+    "resumo": "Designer de marca com foco em identidade visual e branding estratégico.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Design",
+    "habilidadesTecnicas": ["Adobe Illustrator", "Photoshop", "InDesign", "Branding", "Typography"],
+    "softSkills": ["Criatividade", "Comunicação", "Visão estratégica", "Atenção aos detalhes"],
+    "experiencias": [
+      {
+        "empresa": "Brand Studio",
+        "cargo": "Brand Designer",
+        "inicio": "2019-01",
+        "fim": null,
+        "descricao": "Criação de identidades visuais e estratégias de marca"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "UFC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Rebranding Empresa Tech",
+        "link": "https://behance.net/example",
+        "descricao": "Projeto completo de rebranding para startup de tecnologia"
+      }
+    ],
+    "certificacoes": ["Adobe Certified Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Branding", "Visual Identity", "Typography"]
+  },
+  {
+    "id": 20,
+    "nome": "Felipe Costa Barbosa",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "CTO",
+    "resumo": "CTO com experiência em startups e transformação digital de empresas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Strategic Planning", "Technology Leadership", "Architecture", "Team Building"],
+    "softSkills": ["Liderança estratégica", "Visão de negócios", "Inovação", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "Tech Startup",
+        "cargo": "Chief Technology Officer",
+        "inicio": "2016-01",
+        "fim": null,
+        "descricao": "Liderança tecnológica e estratégica da empresa"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de TI",
+        "instituicao": "FGV",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Executive Leadership Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Mandarim", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Digital Transformation", "Innovation", "Technology Strategy"]
+  },
+  {
+    "id": 21,
+    "nome": "Aline Rodrigues Melo",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "System Analyst",
+    "resumo": "Analista de sistemas com foco em levantamento de requisitos e modelagem de processos.",
+    "localizacao": "Manaus/AM",
+    "area": "Análise",
+    "habilidadesTecnicas": ["UML", "SQL", "Requirements Engineering", "BPMN", "Use Cases"],
+    "softSkills": ["Comunicação", "Análise crítica", "Organização", "Mediação"],
+    "experiencias": [
+      {
+        "empresa": "Systems Corp",
+        "cargo": "System Analyst",
+        "inicio": "2018-08",
+        "fim": null,
+        "descricao": "Análise e documentação de requisitos de sistemas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise de Sistemas",
+        "instituicao": "UFAM",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["CBAP"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Requirements Engineering", "Business Analysis", "Process Modeling"]
+  },
+  {
+    "id": 22,
+    "nome": "Diego Almeida Souza",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Frontend Developer",
+    "resumo": "Desenvolvedor frontend especializado em React e experiências interativas.",
+    "localizacao": "Vitória/ES",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Vue.js", "TypeScript", "CSS", "Next.js", "Testing"],
+    "softSkills": ["Criatividade", "Atenção aos detalhes", "Trabalho em equipe", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "Frontend Studio",
+        "cargo": "Frontend Developer",
+        "inicio": "2019-06",
+        "fim": null,
+        "descricao": "Desenvolvimento de interfaces web modernas e responsivas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas para Internet",
+        "instituicao": "IFES",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard Analytics",
+        "link": "https://github.com/example",
+        "descricao": "Dashboard interativo de analytics com visualizações em tempo real"
+      }
+    ],
+    "certificacoes": ["React Advanced Certification"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Web Performance", "Component Architecture", "UI Animations"]
+  },
+  {
+    "id": 23,
+    "nome": "Renata Lima Cardoso",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "HR Tech Specialist",
+    "resumo": "Especialista em RH e tecnologia, focada em transformação digital de processos de pessoas.",
+    "localizacao": "Curitiba/PR",
+    "area": "Recursos Humanos",
+    "habilidadesTecnicas": ["HR Systems", "People Analytics", "ATS", "HRIS", "Excel", "Power BI"],
+    "softSkills": ["Empatia", "Comunicação", "Visão estratégica", "Gestão de mudanças"],
+    "experiencias": [
+      {
+        "empresa": "HR Innovation",
+        "cargo": "HR Tech Specialist",
+        "inicio": "2017-10",
+        "fim": null,
+        "descricao": "Implementação de tecnologias para otimização de processos de RH"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia Organizacional",
+        "instituicao": "UFPR",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["SHRM-CP", "People Analytics Certificate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["People Analytics", "HR Technology", "Employee Experience"]
+  },
+  {
+    "id": 24,
+    "nome": "Victor Hugo Oliveira",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Full Stack Developer",
+    "resumo": "Desenvolvedor full stack com paixão por criar produtos completos do zero.",
+    "localizacao": "João Pessoa/PB",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Node.js", "MongoDB", "PostgreSQL", "AWS", "Docker"],
+    "softSkills": ["Versatilidade", "Aprendizado rápido", "Proatividade", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "Startup Digital",
+        "cargo": "Full Stack Developer",
+        "inicio": "2018-11",
+        "fim": null,
+        "descricao": "Desenvolvimento completo de aplicações web"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UFPB",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "SaaS de Gestão",
+        "link": "https://github.com/example",
+        "descricao": "Plataforma SaaS completa para gestão de pequenas empresas"
+      }
+    ],
+    "certificacoes": ["Full Stack Web Development"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Web Development", "SaaS", "Startups"]
+  },
+  {
+    "id": 25,
+    "nome": "Carolina Pereira Santos",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Digital Strategist",
+    "resumo": "Estrategista digital com foco em transformação e inovação de negócios.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Estratégia",
+    "habilidadesTecnicas": ["Digital Strategy", "Analytics", "Market Research", "SEO", "CRM"],
+    "softSkills": ["Pensamento estratégico", "Criatividade", "Liderança", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Strategy Digital",
+        "cargo": "Digital Strategist",
+        "inicio": "2017-04",
+        "fim": null,
+        "descricao": "Desenvolvimento de estratégias digitais para grandes empresas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Marketing Digital",
+        "instituicao": "FGV",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Google Analytics Certification", "Digital Marketing Strategy"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Digital Transformation", "Innovation", "Business Strategy"]
+  },
+  {
+    "id": 26,
+    "nome": "André Luiz Costa",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Machine Learning Engineer",
+    "resumo": "Engenheiro de ML com foco em deep learning e computer vision.",
+    "localizacao": "Campinas/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "PyTorch", "Computer Vision", "NLP", "MLOps"],
+    "softSkills": ["Pensamento analítico", "Criatividade", "Resolução de problemas", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "AI Labs",
+        "cargo": "ML Engineer",
+        "inicio": "2019-03",
+        "fim": null,
+        "descricao": "Desenvolvimento de modelos de machine learning para produção"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Doutorado em Ciência da Computação",
+        "instituicao": "UNICAMP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["TensorFlow Developer Certificate", "Deep Learning Specialization"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Deep Learning", "Computer Vision", "MLOps"]
+  },
+  {
+    "id": 27,
+    "nome": "Priscila Souza Teixeira",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Agile Coach",
+    "resumo": "Coach ágil com experiência em transformação organizacional e cultural.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Scrum", "Kanban", "SAFe", "LeSS", "Facilitation", "OKRs"],
+    "softSkills": ["Liderança", "Empatia", "Facilitação", "Coaching"],
+    "experiencias": [
+      {
+        "empresa": "Agile Transformation",
+        "cargo": "Agile Coach",
+        "inicio": "2016-09",
+        "fim": null,
+        "descricao": "Coaching de equipes e liderança em transformação ágil"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão Ágil",
+        "instituicao": "UFMG",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["SAFe Program Consultant", "ICAgile Certified Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Agile Transformation", "Organizational Change", "Leadership Development"]
+  },
+  {
+    "id": 28,
+    "nome": "Guilherme Rocha Silva",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Data Engineer",
+    "resumo": "Engenheiro de dados especializado em pipelines de dados e ETL.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "Spark", "Airflow", "SQL", "AWS", "Data Warehouse"],
+    "softSkills": ["Resolução de problemas", "Organização", "Trabalho em equipe", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "Data Platform",
+        "cargo": "Data Engineer",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Construção de pipelines de dados escaláveis"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "Poli-USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Data Analytics Specialty", "Databricks Certified"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Data Engineering", "Big Data", "Cloud Data Platforms"]
+  },
+  {
+    "id": 29,
+    "nome": "Tatiana Alves Moreno",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Innovation Manager",
+    "resumo": "Gestora de inovação focada em metodologias ágeis e design thinking.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Inovação",
+    "habilidadesTecnicas": ["Design Thinking", "Lean Startup", "Innovation Management", "Workshop Facilitation"],
+    "softSkills": ["Criatividade", "Liderança", "Visão estratégica", "Facilitação"],
+    "experiencias": [
+      {
+        "empresa": "Innovation Hub",
+        "cargo": "Innovation Manager",
+        "inicio": "2017-06",
+        "fim": null,
+        "descricao": "Gestão de iniciativas de inovação e facilitação de workshops"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração com MBA em Inovação",
+        "instituicao": "UFRGS",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Design Thinking Facilitator", "Innovation Management Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Alemão", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Innovation", "Design Thinking", "Entrepreneurship"]
+  },
+  {
+    "id": 30,
+    "nome": "Ricardo Mendes Farias",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Sales Engineer",
+    "resumo": "Engenheiro de vendas com expertise técnica e habilidades comerciais.",
+    "localizacao": "São Paulo/SP",
+    "area": "Vendas",
+    "habilidadesTecnicas": ["Technical Sales", "Solution Architecture", "Demos", "CRM", "Cloud Solutions"],
+    "softSkills": ["Comunicação", "Negociação", "Empatia", "Apresentação"],
+    "experiencias": [
+      {
+        "empresa": "Tech Sales Corp",
+        "cargo": "Sales Engineer",
+        "inicio": "2018-02",
+        "fim": null,
+        "descricao": "Suporte técnico em vendas de soluções enterprise"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UNIFESP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Solutions Architect", "Salesforce Certified"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Technical Sales", "Solution Selling", "Customer Success"]
+  },
+  {
+    "id": 31,
+    "nome": "Débora Santos Correia",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Product Owner",
+    "resumo": "Product Owner com foco em produtos digitais e metodologias ágeis.",
+    "localizacao": "Curitiba/PR",
+    "area": "Gestão de Produtos",
+    "habilidadesTecnicas": ["Product Management", "User Stories", "Backlog Management", "Analytics", "Jira"],
+    "softSkills": ["Liderança", "Comunicação", "Priorização", "Visão de negócios"],
+    "experiencias": [
+      {
+        "empresa": "Digital Products",
+        "cargo": "Product Owner",
+        "inicio": "2018-09",
+        "fim": null,
+        "descricao": "Gestão de backlog e definição de roadmap de produtos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração de Empresas",
+        "instituicao": "PUCPR",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Certified Scrum Product Owner", "Product Management Certificate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Product Strategy", "Agile", "User Experience"]
+  },
+  {
+    "id": 32,
+    "nome": "Leonardo Fernandes Lima",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "DevSecOps Engineer",
+    "resumo": "Engenheiro DevSecOps focado em segurança em pipelines de CI/CD.",
+    "localizacao": "Brasília/DF",
+    "area": "Segurança",
+    "habilidadesTecnicas": ["Security", "DevOps", "CI/CD", "Kubernetes", "Terraform", "SAST/DAST"],
+    "softSkills": ["Atenção aos detalhes", "Proatividade", "Comunicação", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "SecureOps",
+        "cargo": "DevSecOps Engineer",
+        "inicio": "2019-05",
+        "fim": null,
+        "descricao": "Implementação de práticas de segurança em pipelines DevOps"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Segurança da Informação",
+        "instituicao": "UnB",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Security Specialty", "Certified Kubernetes Security Specialist"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["DevSecOps", "Container Security", "Cloud Security"]
+  },
+  {
+    "id": 33,
+    "nome": "Vanessa Costa Pinto",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Tech Educator",
+    "resumo": "Educadora em tecnologia com paixão por ensinar programação e transformar vidas.",
+    "localizacao": "Recife/PE",
+    "area": "Educação",
+    "habilidadesTecnicas": ["Teaching", "Curriculum Design", "JavaScript", "Python", "Workshop Facilitation"],
+    "softSkills": ["Comunicação", "Empatia", "Paciência", "Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "Tech Education",
+        "cargo": "Tech Educator",
+        "inicio": "2017-08",
+        "fim": null,
+        "descricao": "Ensino de programação e tecnologia para diferentes públicos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pedagogia com especialização em Tecnologia",
+        "instituicao": "UFPE",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Google IT Support Certificate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Technology Education", "Social Impact", "Diversity in Tech"]
+  },
+  {
+    "id": 34,
+    "nome": "Henrique Barbosa Melo",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Blockchain Developer",
+    "resumo": "Desenvolvedor blockchain especializado em smart contracts e DApps.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Solidity", "Ethereum", "Web3.js", "Smart Contracts", "Truffle", "Hardhat"],
+    "softSkills": ["Inovação", "Resolução de problemas", "Trabalho em equipe", "Aprendizado contínuo"],
+    "experiencias": [
+      {
+        "empresa": "Blockchain Solutions",
+        "cargo": "Blockchain Developer",
+        "inicio": "2019-11",
+        "fim": null,
+        "descricao": "Desenvolvimento de smart contracts e aplicações descentralizadas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "IME-USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "DeFi Protocol",
+        "link": "https://github.com/example",
+        "descricao": "Protocolo DeFi completo na blockchain Ethereum"
+      }
+    ],
+    "certificacoes": ["Certified Blockchain Developer"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Blockchain", "DeFi", "Web3"]
+  },
+  {
+    "id": 35,
+    "nome": "Silvia Rodrigues Prado",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Social Media Manager",
+    "resumo": "Gestora de mídias sociais com foco em estratégias de conteúdo e engajamento.",
+    "localizacao": "Salvador/BA",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Social Media", "Content Creation", "Canva", "Analytics", "Copywriting"],
+    "softSkills": ["Criatividade", "Comunicação", "Organização", "Adaptabilidade"],
+    "experiencias": [
+      {
+        "empresa": "Social Media Agency",
+        "cargo": "Social Media Manager",
+        "inicio": "2018-04",
+        "fim": null,
+        "descricao": "Gestão de redes sociais e criação de conteúdo estratégico"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Comunicação Social",
+        "instituicao": "UFBA",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Facebook Blueprint Certification", "Hootsuite Social Marketing"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Social Media Marketing", "Content Strategy", "Influencer Marketing"]
+  },
+  {
+    "id": 36,
+    "nome": "Augusto Silva Moreira",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Network Engineer",
+    "resumo": "Engenheiro de redes com expertise em infraestrutura e segurança de redes.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Cisco", "Network Security", "Routing", "Switching", "VPN", "Firewall"],
+    "softSkills": ["Resolução de problemas", "Atenção aos detalhes", "Trabalho sob pressão", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Network Solutions",
+        "cargo": "Network Engineer",
+        "inicio": "2017-11",
+        "fim": null,
+        "descricao": "Administração e manutenção de infraestrutura de rede"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "UFC",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["CCNP", "CompTIA Network+"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Network Security", "SDN", "Cloud Networking"]
+  },
+  {
+    "id": 37,
+    "nome": "Raquel Mendes Cardoso",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Fintech Product Manager",
+    "resumo": "Product Manager especializada em produtos financeiros e fintechs.",
+    "localizacao": "São Paulo/SP",
+    "area": "Gestão de Produtos",
+    "habilidadesTecnicas": ["Fintech", "Payments", "Banking", "Product Analytics", "API Integration"],
+    "softSkills": ["Visão estratégica", "Negociação", "Liderança", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Fintech Innovations",
+        "cargo": "Fintech Product Manager",
+        "inicio": "2018-12",
+        "fim": null,
+        "descricao": "Gestão de produtos financeiros digitais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Economia com MBA em Finanças",
+        "instituicao": "Insper",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Product Management Certificate", "Financial Technology Specialist"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Mandarim", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Fintech", "Digital Payments", "Open Banking"]
+  },
+  {
+    "id": 38,
+    "nome": "Matheus Oliveira Cruz",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Game Developer",
+    "resumo": "Desenvolvedor de jogos especializado em Unity e experiências interativas.",
+    "localizacao": "Campinas/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Unity", "C#", "Unreal Engine", "Game Design", "3D Modeling"],
+    "softSkills": ["Criatividade", "Trabalho em equipe", "Paixão", "Persistência"],
+    "experiencias": [
+      {
+        "empresa": "Game Studio",
+        "cargo": "Game Developer",
+        "inicio": "2019-04",
+        "fim": null,
+        "descricao": "Desenvolvimento de jogos mobile e PC"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Jogos Digitais",
+        "instituicao": "UNICAMP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Jogo Indie Adventure",
+        "link": "https://itch.io/example",
+        "descricao": "Jogo indie de aventura 2D com puzzles"
+      }
+    ],
+    "certificacoes": ["Unity Certified Developer"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Game Development", "VR/AR", "Interactive Experiences"]
+  },
+  {
+    "id": 39,
+    "nome": "Luciana Pinto Barbosa",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Legal Tech Specialist",
+    "resumo": "Especialista em tecnologia jurídica e transformação digital no direito.",
+    "localizacao": "Brasília/DF",
+    "area": "Jurídico",
+    "habilidadesTecnicas": ["Legal Tech", "Contract Management", "Legal Analytics", "Automation", "LGPD"],
+    "softSkills": ["Atenção aos detalhes", "Ética", "Comunicação", "Pensamento analítico"],
+    "experiencias": [
+      {
+        "empresa": "LegalTech Solutions",
+        "cargo": "Legal Tech Specialist",
+        "inicio": "2018-06",
+        "fim": null,
+        "descricao": "Implementação de tecnologias em processos jurídicos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Direito com especialização em Tecnologia",
+        "instituicao": "UnB",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["LGPD Certification", "Legal Tech Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Legal Technology", "Data Privacy", "Digital Law"]
+  },
+  {
+    "id": 40,
+    "nome": "Fábio Costa Almeida",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "IoT Engineer",
+    "resumo": "Engenheiro IoT especializado em dispositivos conectados e sistemas embarcados.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["IoT", "Arduino", "Raspberry Pi", "MQTT", "Embedded Systems", "Python"],
+    "softSkills": ["Inovação", "Resolução de problemas", "Curiosidade", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "IoT Solutions",
+        "cargo": "IoT Engineer",
+        "inicio": "2019-08",
+        "fim": null,
+        "descricao": "Desenvolvimento de soluções IoT para indústria e smart cities"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Elétrica",
+        "instituicao": "UFSC",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS IoT Certification"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["IoT", "Smart Cities", "Industry 4.0"]
+  },
+  {
+    "id": 41,
+    "nome": "Natália Santos Ribeiro",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "UX Researcher",
+    "resumo": "Pesquisadora de UX focada em entender comportamentos e necessidades dos usuários.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Design",
+    "habilidadesTecnicas": ["User Research", "Usability Testing", "Data Analysis", "Figma", "Survey Design"],
+    "softSkills": ["Empatia", "Curiosidade", "Comunicação", "Pensamento analítico"],
+    "experiencias": [
+      {
+        "empresa": "UX Research Lab",
+        "cargo": "UX Researcher",
+        "inicio": "2018-10",
+        "fim": null,
+        "descricao": "Condução de pesquisas qualitativas e quantitativas com usuários"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia",
+        "instituicao": "UFRGS",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Nielsen Norman Group UX Certification"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["User Research", "Behavioral Psychology", "Usability"]
+  },
+  {
+    "id": 42,
+    "nome": "Daniel Ferreira Gomes",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Site Reliability Engineer",
+    "resumo": "SRE focado em confiabilidade, performance e escalabilidade de sistemas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["SRE", "Monitoring", "Kubernetes", "Prometheus", "Grafana", "Python"],
+    "softSkills": ["Resolução de problemas", "Trabalho sob pressão", "Proatividade", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Reliability Systems",
+        "cargo": "SRE",
+        "inicio": "2018-08",
+        "fim": null,
+        "descricao": "Garantia de confiabilidade e performance de sistemas críticos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Google Professional Cloud Architect"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Site Reliability", "Observability", "Chaos Engineering"]
+  },
+  {
+    "id": 43,
+    "nome": "Cristina Alves Moreira",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Copywriter",
+    "resumo": "Copywriter especializada em textos persuasivos e estratégias de conversão.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Copywriting", "SEO", "Content Marketing", "Email Marketing", "Landing Pages"],
+    "softSkills": ["Criatividade", "Comunicação", "Persuasão", "Adaptabilidade"],
+    "experiencias": [
+      {
+        "empresa": "Content Agency",
+        "cargo": "Copywriter",
+        "inicio": "2019-02",
+        "fim": null,
+        "descricao": "Criação de textos persuasivos para campanhas e páginas de conversão"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Publicidade e Propaganda",
+        "instituicao": "UFRJ",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Content Marketing Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Italiano", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Copywriting", "Conversion Optimization", "Storytelling"]
+  },
+  {
+    "id": 44,
+    "nome": "Igor Lima Santos",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Motion Designer",
+    "resumo": "Motion designer especializado em animações e vídeos para produtos digitais.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": ["After Effects", "Premiere Pro", "Cinema 4D", "Animation", "Video Editing"],
+    "softSkills": ["Criatividade", "Atenção aos detalhes", "Trabalho em equipe", "Gestão de tempo"],
+    "experiencias": [
+      {
+        "empresa": "Motion Studio",
+        "cargo": "Motion Designer",
+        "inicio": "2019-01",
+        "fim": null,
+        "descricao": "Criação de animações e vídeos para produtos digitais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Belas Artes",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Animação Explicativa",
+        "link": "https://vimeo.com/example",
+        "descricao": "Vídeo explicativo animado para startup fintech"
+      }
+    ],
+    "certificacoes": ["Adobe Certified Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Motion Design", "3D Animation", "Video Production"]
+  },
+  {
+    "id": 45,
+    "nome": "Elaine Rodrigues Costa",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Customer Success Manager",
+    "resumo": "Gestora de sucesso do cliente focada em retenção e satisfação.",
+    "localizacao": "Curitiba/PR",
+    "area": "Atendimento",
+    "habilidadesTecnicas": ["Customer Success", "CRM", "Data Analysis", "Onboarding", "Account Management"],
+    "softSkills": ["Empatia", "Comunicação", "Proatividade", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "SaaS Company",
+        "cargo": "Customer Success Manager",
+        "inicio": "2018-05",
+        "fim": null,
+        "descricao": "Gestão de carteira de clientes e garantia de sucesso"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFPR",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Customer Success Manager Certification"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Customer Success", "Client Retention", "SaaS"]
+  },
+  {
+    "id": 46,
+    "nome": "Vinicius Barros Silva",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "IT Consultant",
+    "resumo": "Consultor de TI com experiência em transformação digital e estratégia tecnológica.",
+    "localizacao": "São Paulo/SP",
+    "area": "Consultoria",
+    "habilidadesTecnicas": ["IT Strategy", "Digital Transformation", "Enterprise Architecture", "Cloud Migration"],
+    "softSkills": ["Pensamento estratégico", "Comunicação", "Negociação", "Liderança"],
+    "experiencias": [
+      {
+        "empresa": "IT Consulting Firm",
+        "cargo": "IT Consultant",
+        "inicio": "2016-07",
+        "fim": null,
+        "descricao": "Consultoria em transformação digital para grandes empresas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de TI",
+        "instituicao": "FGV",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["TOGAF Certified", "ITIL Expert"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Francês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["IT Strategy", "Digital Transformation", "Enterprise Architecture"]
+  },
+  {
+    "id": 47,
+    "nome": "Bruna Teixeira Lopes",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "E-commerce Manager",
+    "resumo": "Gestora de e-commerce com foco em conversão e experiência do cliente.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "E-commerce",
+    "habilidadesTecnicas": ["E-commerce", "Google Analytics", "Shopify", "CRO", "Digital Marketing"],
+    "softSkills": ["Análise crítica", "Organização", "Comunicação", "Visão de negócios"],
+    "experiencias": [
+      {
+        "empresa": "Online Retail",
+        "cargo": "E-commerce Manager",
+        "inicio": "2017-12",
+        "fim": null,
+        "descricao": "Gestão completa de operação de e-commerce"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Marketing",
+        "instituicao": "UFMG",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Google Analytics Certification", "E-commerce Specialist"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["E-commerce", "Conversion Rate Optimization", "Digital Retail"]
+  },
+  {
+    "id": 48,
+    "nome": "Alexandre Santos Dias",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "AI Research Scientist",
+    "resumo": "Cientista de pesquisa em IA com foco em NLP e modelos de linguagem.",
+    "localizacao": "Campinas/SP",
+    "area": "Pesquisa",
+    "habilidadesTecnicas": ["AI Research", "NLP", "Transformers", "PyTorch", "Research Papers", "Python"],
+    "softSkills": ["Pensamento analítico", "Curiosidade", "Persistência", "Comunicação científica"],
+    "experiencias": [
+      {
+        "empresa": "AI Research Lab",
+        "cargo": "AI Research Scientist",
+        "inicio": "2019-09",
+        "fim": null,
+        "descricao": "Pesquisa em modelos de linguagem e NLP"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Doutorado em Inteligência Artificial",
+        "instituicao": "UNICAMP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Deep Learning Specialization"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["AI Research", "Natural Language Processing", "Large Language Models"]
+  },
+  {
+    "id": 49,
+    "nome": "Sabrina Costa Martins",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Diversity & Inclusion Specialist",
+    "resumo": "Especialista em diversidade e inclusão focada em transformação cultural.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Recursos Humanos",
+    "habilidadesTecnicas": ["D&I Programs", "Culture Change", "Training", "Metrics & Analytics", "DEI Strategy"],
+    "softSkills": ["Empatia", "Liderança", "Comunicação", "Visão sistêmica"],
+    "experiencias": [
+      {
+        "empresa": "Inclusion Partners",
+        "cargo": "D&I Specialist",
+        "inicio": "2017-05",
+        "fim": null,
+        "descricao": "Desenvolvimento e implementação de programas de diversidade"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia Organizacional",
+        "instituicao": "UFRJ",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Diversity & Inclusion Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Libras", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Diversity & Inclusion", "Organizational Culture", "Social Justice"]
+  },
+  {
+    "id": 50,
+    "nome": "Paulo Roberto Alves",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Database Administrator",
+    "resumo": "DBA com expertise em bancos de dados relacionais e otimização de performance.",
+    "localizacao": "São Paulo/SP",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["PostgreSQL", "MySQL", "Oracle", "Performance Tuning", "Backup & Recovery", "SQL"],
+    "softSkills": ["Atenção aos detalhes", "Resolução de problemas", "Organização", "Trabalho sob pressão"],
+    "experiencias": [
+      {
+        "empresa": "Database Services",
+        "cargo": "Database Administrator",
+        "inicio": "2016-11",
+        "fim": null,
+        "descricao": "Administração e otimização de bancos de dados corporativos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Banco de Dados",
+        "instituicao": "FATEC",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Oracle Certified Professional", "PostgreSQL Certified"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Database Performance", "Data Architecture", "High Availability"]
+  },
+  {
+    "id": 51,
+    "nome": "Melissa Souza Freitas",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Event Tech Manager",
+    "resumo": "Gestora de eventos tech focada em experiências e networking profissional.",
+    "localizacao": "São Paulo/SP",
+    "area": "Eventos",
+    "habilidadesTecnicas": ["Event Management", "Community Building", "Marketing", "Logistics", "Sponsorship"],
+    "softSkills": ["Organização", "Networking", "Comunicação", "Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "Tech Events Co",
+        "cargo": "Event Manager",
+        "inicio": "2018-03",
+        "fim": null,
+        "descricao": "Organização de eventos e conferências de tecnologia"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Relações Públicas",
+        "instituicao": "Cásper Líbero",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Event Management Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Tech Events", "Community Management", "Networking"]
+  },
+  {
+    "id": 52,
+    "nome": "Renato Pereira Lima",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Audio Engineer",
+    "resumo": "Engenheiro de áudio especializado em produção digital e sound design.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Mídia",
+    "habilidadesTecnicas": ["Pro Tools", "Ableton Live", "Sound Design", "Mixing", "Mastering", "Audio Production"],
+    "softSkills": ["Atenção aos detalhes", "Criatividade", "Paciência", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "Audio Production Studio",
+        "cargo": "Audio Engineer",
+        "inicio": "2017-09",
+        "fim": null,
+        "descricao": "Produção de áudio para podcasts, vídeos e games"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Produção de Áudio",
+        "instituicao": "Conservatório Brasileiro de Música",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Avid Certified Pro Tools User"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Audio Production", "Sound Design", "Music Technology"]
+  },
+  {
+    "id": 53,
+    "nome": "Adriana Lima Ferreira",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Technical Translator",
+    "resumo": "Tradutora técnica especializada em documentação de software e localização.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Linguística",
+    "habilidadesTecnicas": ["Translation", "Localization", "CAT Tools", "Technical Writing", "Quality Assurance"],
+    "softSkills": ["Atenção aos detalhes", "Comunicação", "Organização", "Adaptabilidade"],
+    "experiencias": [
+      {
+        "empresa": "Translation Services",
+        "cargo": "Technical Translator",
+        "inicio": "2018-07",
+        "fim": null,
+        "descricao": "Tradução de documentação técnica e localização de software"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Letras - Tradução",
+        "instituicao": "UFSC",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Certified Translator"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Fluente" },
+      { "idioma": "Francês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Technical Translation", "Software Localization", "Content Adaptation"]
+  },
+  {
+    "id": 54,
+    "nome": "Gustavo Martins Rocha",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Robotics Engineer",
+    "resumo": "Engenheiro de robótica com foco em automação industrial e robôs autônomos.",
+    "localizacao": "São Carlos/SP",
+    "area": "Engenharia",
+    "habilidadesTecnicas": ["Robotics", "ROS", "Computer Vision", "Control Systems", "Python", "C++"],
+    "softSkills": ["Inovação", "Resolução de problemas", "Trabalho em equipe", "Pensamento analítico"],
+    "experiencias": [
+      {
+        "empresa": "Robotics Lab",
+        "cargo": "Robotics Engineer",
+        "inicio": "2019-10",
+        "fim": null,
+        "descricao": "Desenvolvimento de sistemas robóticos autônomos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Mecatrônica",
+        "instituicao": "USP São Carlos",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["ROS Certified Developer"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Robotics", "Automation", "Autonomous Systems"]
+  },
+  {
+    "id": 55,
+    "nome": "Juliana Almeida Prado",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Sustainability Tech Specialist",
+    "resumo": "Especialista em tecnologia para sustentabilidade e ESG.",
+    "localizacao": "São Paulo/SP",
+    "area": "Sustentabilidade",
+    "habilidadesTecnicas": ["ESG", "Carbon Footprint", "Sustainability Reporting", "Data Analysis", "GRI Standards"],
+    "softSkills": ["Visão sistêmica", "Comunicação", "Pensamento crítico", "Paixão"],
+    "experiencias": [
+      {
+        "empresa": "SustainTech",
+        "cargo": "Sustainability Specialist",
+        "inicio": "2018-11",
+        "fim": null,
+        "descricao": "Implementação de soluções tech para sustentabilidade corporativa"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Ambiental com MBA em Sustentabilidade",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["GRI Certified Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Alemão", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Sustainability", "ESG", "Climate Tech"]
+  },
+  {
+    "id": 56,
+    "nome": "Roberto Cardoso Nunes",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Chief Information Security Officer",
+    "resumo": "CISO com experiência em governança de segurança e compliance.",
+    "localizacao": "São Paulo/SP",
+    "area": "Segurança",
+    "habilidadesTecnicas": ["Security Governance", "Risk Management", "Compliance", "ISO 27001", "LGPD", "Strategy"],
+    "softSkills": ["Liderança estratégica", "Comunicação executiva", "Visão de negócios", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "Enterprise Security",
+        "cargo": "CISO",
+        "inicio": "2015-03",
+        "fim": null,
+        "descricao": "Liderança estratégica de segurança da informação"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Segurança da Informação",
+        "instituicao": "FGV",
+        "ano": 2015
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["CISSP", "CISM", "ISO 27001 Lead Auditor"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Security Strategy", "Governance", "Cyber Risk"]
+  },
+  {
+    "id": 57,
+    "nome": "Camila Oliveira Melo",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Accessibility Specialist",
+    "resumo": "Especialista em acessibilidade digital e inclusão.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Acessibilidade",
+    "habilidadesTecnicas": ["WCAG", "ARIA", "Screen Readers", "Accessibility Testing", "HTML", "CSS"],
+    "softSkills": ["Empatia", "Atenção aos detalhes", "Comunicação", "Advocacy"],
+    "experiencias": [
+      {
+        "empresa": "Accessibility First",
+        "cargo": "Accessibility Specialist",
+        "inicio": "2018-06",
+        "fim": null,
+        "descricao": "Garantia de acessibilidade em produtos digitais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia Assistiva",
+        "instituicao": "UFRGS",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["IAAP Certified Professional", "WCAG Auditor"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Libras", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Digital Accessibility", "Inclusive Design", "Assistive Technology"]
+  },
+  {
+    "id": 58,
+    "nome": "Eduardo Silva Barbosa",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Platform Engineer",
+    "resumo": "Engenheiro de plataforma focado em developer experience e internal tools.",
+    "localizacao": "São Paulo/SP",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Kubernetes", "Terraform", "CI/CD", "Internal Tools", "Platform Engineering", "Go"],
+    "softSkills": ["Pensamento sistêmico", "Comunicação", "Empatia", "Inovação"],
+    "experiencias": [
+      {
+        "empresa": "Platform Team",
+        "cargo": "Platform Engineer",
+        "inicio": "2019-07",
+        "fim": null,
+        "descricao": "Construção de plataforma interna e ferramentas para desenvolvedores"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UNICAMP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Certified Kubernetes Administrator", "AWS DevOps Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Platform Engineering", "Developer Experience", "Internal Tools"]
+  },
+  {
+    "id": 59,
+    "nome": "Mariana Castro Dias",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Growth Hacker",
+    "resumo": "Growth hacker especializada em aquisição e ativação de usuários.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Growth Hacking", "A/B Testing", "Analytics", "SQL", "Python", "Marketing Automation"],
+    "softSkills": ["Criatividade", "Análise de dados", "Experimentação", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "Growth Startup",
+        "cargo": "Growth Hacker",
+        "inicio": "2019-04",
+        "fim": null,
+        "descricao": "Execução de experimentos para crescimento de usuários"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Marketing com especialização em Growth",
+        "instituicao": "ESPM",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Growth Hacking Certificate", "Google Analytics Advanced"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Growth Hacking", "Product-Led Growth", "Data-Driven Marketing"]
+  },
+  {
+    "id": 60,
+    "nome": "Fernando Costa Rocha",
+    "foto": "/placeholder.svg?height=400&width=400",
+    "cargo": "Tech Entrepreneur",
+    "resumo": "Empreendedor tech com experiência em fundação e escala de startups.",
+    "localizacao": "São Paulo/SP",
+    "area": "Empreendedorismo",
+    "habilidadesTecnicas": ["Entrepreneurship", "Product Development", "Fundraising", "Business Strategy", "Team Building"],
+    "softSkills": ["Liderança visionária", "Resiliência", "Networking", "Tomada de decisão"],
+    "experiencias": [
+      {
+        "empresa": "Own Startup",
+        "cargo": "Founder & CEO",
+        "inicio": "2016-05",
+        "fim": null,
+        "descricao": "Fundação e gestão de startup de tecnologia"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia com MBA em Empreendedorismo",
+        "instituicao": "Insper",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Startup Leadership Program"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Mandarim", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Entrepreneurship", "Venture Capital", "Innovation"]
+  }
+]
