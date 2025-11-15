@@ -11,6 +11,109 @@ O LevelUp IA é uma solução profissionalizante que:
 - **Para RH**: Gerencie talentos, acompanhe desenvolvimento de competências, identifique skills gaps e promova networking interno
 - **Para Empresas**: Aumente engajamento em treinamentos, retenha talentos e construa uma cultura de aprendizado contínuo
 
+## 👥 Sistema de Autenticação
+
+A plataforma possui **4 tipos de usuários** com diferentes níveis de acesso e funcionalidades:
+
+### 1. 🔍 Candidato (Busca de Emprego)
+**Acesso limitado**: Apenas Rede Profissional para buscar oportunidades
+
+**Funcionalidades:**
+- Visualizar perfis de profissionais cadastrados
+- Buscar por área, cidade e tecnologias
+- Enviar mensagens para profissionais
+- Receber recomendações
+- Criar e editar perfil profissional
+
+**Login Demo:**
+- Email: `candidato@exemplo.com`
+- Senha: `candidato123`
+
+---
+
+### 2. 💼 Funcionário (Ligado à Empresa)
+**Acesso completo**: Gamificação + Rede Profissional
+
+**Funcionalidades:**
+- ✅ **Todas as funcionalidades de gamificação:**
+  - Completar missões e ganhar XP
+  - Participar de desafios dinâmicos
+  - Competir em rankings
+  - Desbloquear conquistas e prêmios
+  - Consultar Coach IA para orientação
+  - Acessar cursos de parceiros
+- ✅ **Rede profissional:**
+  - Conectar com outros profissionais
+  - Indicar colegas internamente
+  - Buscar mentores e colaboradores
+
+**Login Demo:**
+- Email: `funcionario@empresa.com`
+- Senha: `func123`
+
+---
+
+### 3. 📊 Gestor (Manager)
+**Acesso gerencial**: Dashboard de gestão + Rede Profissional
+
+**Funcionalidades:**
+- Visualizar métricas e resultados da equipe
+- Acompanhar progresso individual dos funcionários
+- Avaliar efetividade de treinamentos
+- Identificar talentos de alto desempenho
+- Buscar profissionais internos por competências
+- Fazer recomendações estratégicas
+- Acesso parcial a missões e rankings
+
+**Login Demo:**
+- Email: `gestor@empresa.com`
+- Senha: `gestor123`
+
+---
+
+### 4. 🏢 RH (Recursos Humanos)
+**Acesso administrativo**: Controle total da plataforma
+
+**Funcionalidades:**
+- ✅ **Gestão completa de usuários:**
+  - Criar, editar e remover perfis
+  - Atribuir níveis e permissões
+  - Resetar progresso e senhas
+- ✅ **Configuração de conteúdo:**
+  - Criar e editar missões/desafios
+  - Configurar premiações e recompensas
+  - Definir níveis de dificuldade
+- ✅ **Analytics e relatórios:**
+  - Métricas de engajamento
+  - Taxa de conclusão de treinamentos
+  - Identificação de skills gaps
+  - Relatórios de ROI de treinamento
+- ✅ **Recrutamento e seleção:**
+  - Gerenciar candidatos
+  - Avaliar fit cultural através de conquistas
+  - Acompanhar indicações internas
+
+**Login Demo:**
+- Email: `rh@empresa.com`
+- Senha: `rh123`
+
+---
+
+### Fluxo de Acesso por Tipo de Usuário
+
+| Funcionalidade | Candidato | Funcionário | Gestor | RH |
+|---|:---:|:---:|:---:|:---:|
+| Rede Profissional | ✅ | ✅ | ✅ | ✅ |
+| Dashboard Gamificado | ❌ | ✅ | ⚠️ | ✅ |
+| Missões e Desafios | ❌ | ✅ | 👁️ | ✅ |
+| Rankings | ❌ | ✅ | ✅ | ✅ |
+| Premiações | ❌ | ✅ | 👁️ | ✅ |
+| Coach IA | ❌ | ✅ | ❌ | ❌ |
+| Parceiros | ❌ | ✅ | ❌ | ✅ |
+| Painel Admin | ❌ | ❌ | ⚠️ | ✅ |
+
+**Legenda:** ✅ Acesso completo | ⚠️ Acesso parcial/visualização | 👁️ Apenas visualização | ❌ Sem acesso
+
 ## 🌟 Características Principais
 
 ### Sistema de Gamificação de Aprendizagem
@@ -243,24 +346,11 @@ Cada perfil na rede profissional contém os seguintes campos conforme especifica
 
 **Total**: 60 perfis completos simulando profissionais de diversas áreas e níveis de senioridade.
 
-## ✅ Requisitos da Global Solution Atendidos
-
-- ✅ **60+ perfis profissionais** simulados em arquivo JSON local
-- ✅ **Cards informativos** com nome, foto, cargo e principais skills
-- ✅ **Modal interativa** com dados detalhados ao clicar no card
-- ✅ **Sistema de busca** funcional em tempo real
-- ✅ **Filtros múltiplos** por área, cidade e tecnologia
-- ✅ **Botões de ação funcionais**: "Recomendar Profissional" e "Enviar Mensagem"
-- ✅ **Design responsivo** adaptável a mobile, tablet e desktop
-- ✅ **Dark Mode** implementado em toda aplicação
-- ✅ **Tecnologias**: HTML + React + Tailwind CSS
-- ✅ **SPA** (Single Page Application) com Next.js App Router
-- ✅ **10+ commits** no repositório Git
-
 ## 🔐 Estado da Aplicação
 
 O estado global é gerenciado com **Zustand** e persiste automaticamente no **localStorage**:
 
+- **Autenticação**: Sessão do usuário logado com role e permissões
 - **Dados do Usuário**: Nome, email, nível, XP total, streak de dias
 - **Missões**: Lista de missões ativas, completas e disponíveis
 - **Conquistas**: Badges desbloqueadas e próximas a desbloquear
