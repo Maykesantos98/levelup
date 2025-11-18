@@ -1,6 +1,6 @@
 "use client"
 
-import { Search, Filter, Crown, Lightbulb, Laptop, MessageCircle, Briefcase, Target } from "lucide-react"
+import { Search, Filter, Crown, Lightbulb, Laptop, MessageCircle, Briefcase, Target } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { useState, useEffect } from "react"
@@ -30,19 +30,8 @@ export default function MissoesPage() {
 
   useEffect(() => {
     setMounted(true)
-    console.log("[v0] Missions page mounted, total missions:", missions.length)
-  }, [missions.length])
+  }, [])
 
-  useEffect(() => {
-    console.log(
-      "[v0] Filters changed - Category:",
-      selectedCategory,
-      "Difficulty:",
-      selectedDifficulty,
-      "Search:",
-      searchQuery,
-    )
-  }, [selectedCategory, selectedDifficulty, searchQuery])
 
   const filteredMissions = missions.filter((mission) => {
     const matchesCategory = selectedCategory === "all" || mission.category === selectedCategory
@@ -56,7 +45,6 @@ export default function MissoesPage() {
   })
 
   const handleStartMission = (missionId: string, missionTitle: string) => {
-    console.log("[v0] Starting mission:", missionId, missionTitle)
     startMission(missionId)
     toast({
       title: "Missão iniciada!",
@@ -65,22 +53,18 @@ export default function MissoesPage() {
   }
 
   const handleCategoryClick = (categoryId: string) => {
-    console.log("[v0] Category button clicked:", categoryId)
     setSelectedCategory(categoryId)
   }
 
   const handleDifficultyClick = (difficulty: string) => {
-    console.log("[v0] Difficulty button clicked:", difficulty)
     setSelectedDifficulty(difficulty)
   }
 
   const handleSearchChange = (value: string) => {
-    console.log("[v0] Search input changed:", value)
     setSearchQuery(value)
   }
 
   const handleClearFilters = () => {
-    console.log("[v0] Clearing all filters")
     setSelectedCategory("all")
     setSelectedDifficulty("Todas")
     setSearchQuery("")
@@ -89,12 +73,10 @@ export default function MissoesPage() {
   if (!mounted) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary" aria-label="Carregando missões"></div>
       </div>
     )
   }
-
-  console.log("[v0] Rendering missions page - Filtered missions:", filteredMissions.length)
 
   return (
     <div className="min-h-screen relative">
@@ -102,7 +84,7 @@ export default function MissoesPage() {
       <div className="bg-gradient-to-br from-[oklch(0.35_0.2_265)] to-[oklch(0.25_0.15_240)] px-8 py-12 relative">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex items-center gap-3 mb-3">
-            <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center animate-pulse">
+            <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center animate-pulse" aria-hidden="true">
               <Target className="w-6 h-6 text-white" />
             </div>
             <h1 className="text-4xl font-bold text-white">Explorar Missões</h1>
@@ -114,22 +96,23 @@ export default function MissoesPage() {
       <div className="max-w-7xl mx-auto px-8 py-8 space-y-6">
         {/* Search Bar */}
         <div className="relative">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground pointer-events-none z-10" />
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground pointer-events-none z-10" aria-hidden="true" />
           <Input
             placeholder="Buscar missões..."
             className="pl-12 h-12 bg-card border-border rounded-xl text-base focus:border-primary transition-colors"
             value={searchQuery}
             onChange={(e) => handleSearchChange(e.target.value)}
+            aria-label="Buscar missões por nome, provedor ou descrição"
           />
         </div>
 
         {/* Category Filter */}
         <div className="relative z-10">
           <div className="flex items-center gap-2 mb-3">
-            <Filter className="w-4 h-4 text-muted-foreground" />
+            <Filter className="w-4 h-4 text-muted-foreground" aria-hidden="true" />
             <p className="text-sm font-medium text-muted-foreground">Categoria</p>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2" role="group" aria-label="Filtrar por categoria">
             {categories.map((cat) => {
               const isActive = selectedCategory === cat.id
               return (
@@ -143,8 +126,10 @@ export default function MissoesPage() {
                       : "border-border hover:border-primary/50 transition-all hover:scale-105 pointer-events-auto"
                   }
                   onClick={() => handleCategoryClick(cat.id)}
+                  aria-label={`Filtrar por categoria ${cat.label}`}
+                  aria-pressed={isActive}
                 >
-                  {cat.icon && <cat.icon className="w-4 h-4 mr-2" />}
+                  {cat.icon && <cat.icon className="w-4 h-4 mr-2" aria-hidden="true" />}
                   {cat.label}
                 </Button>
               )
@@ -155,10 +140,10 @@ export default function MissoesPage() {
         {/* Difficulty Filter */}
         <div className="relative z-10">
           <div className="flex items-center gap-2 mb-3">
-            <Filter className="w-4 h-4 text-muted-foreground" />
+            <Filter className="w-4 h-4 text-muted-foreground" aria-hidden="true" />
             <p className="text-sm font-medium text-muted-foreground">Dificuldade</p>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2" role="group" aria-label="Filtrar por dificuldade">
             {difficulties.map((diff) => {
               const isActive = selectedDifficulty === diff
               return (
@@ -172,6 +157,8 @@ export default function MissoesPage() {
                       : "border-border hover:border-primary/50 transition-all hover:scale-105 pointer-events-auto"
                   }
                   onClick={() => handleDifficultyClick(diff)}
+                  aria-label={`Filtrar por dificuldade ${diff}`}
+                  aria-pressed={isActive}
                 >
                   {diff}
                 </Button>
@@ -186,7 +173,7 @@ export default function MissoesPage() {
             Mostrando <span className="font-semibold text-foreground">{filteredMissions.length}</span> missões
           </p>
           {(selectedCategory !== "all" || selectedDifficulty !== "Todas" || searchQuery) && (
-            <Button type="button" variant="ghost" size="sm" onClick={handleClearFilters}>
+            <Button type="button" variant="ghost" size="sm" onClick={handleClearFilters} aria-label="Limpar todos os filtros">
               Limpar filtros
             </Button>
           )}
@@ -194,14 +181,16 @@ export default function MissoesPage() {
 
         {/* Missions Grid */}
         {filteredMissions.length > 0 ? (
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pt-4" role="list" aria-label="Lista de missões disponíveis">
             {filteredMissions.map((mission) => (
-              <MissionCard key={mission.id} mission={mission} onStart={handleStartMission} />
+              <div key={mission.id} role="listitem">
+                <MissionCard mission={mission} onStart={handleStartMission} />
+              </div>
             ))}
           </div>
         ) : (
           <div className="text-center py-12">
-            <Target className="w-16 h-16 text-muted-foreground/50 mx-auto mb-4" />
+            <Target className="w-16 h-16 text-muted-foreground/50 mx-auto mb-4" aria-hidden="true" />
             <p className="text-muted-foreground mb-2">Nenhuma missão encontrada com os filtros selecionados</p>
             <Button type="button" variant="outline" onClick={handleClearFilters}>
               Limpar filtros

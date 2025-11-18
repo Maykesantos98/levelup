@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { useUserStore } from "@/lib/store/user-store"
 import { useAuthStore } from "@/lib/store/auth-store"
+import { memo } from "react"
 
 const menuItemsByRole = {
   candidate: [
@@ -52,7 +53,7 @@ const menuItemsByRole = {
   ],
 }
 
-export function Sidebar() {
+export const Sidebar = memo(function Sidebar() {
   const pathname = usePathname()
   const router = useRouter()
   const { user } = useUserStore()
@@ -66,7 +67,7 @@ export function Sidebar() {
   const menuItems = authUser ? menuItemsByRole[authUser.role] : menuItemsByRole.employee
 
   const handleNavClick = (href: string, label: string) => {
-    console.log("[v0] Navigation clicked:", label, href)
+    // Navigation is handled by Next.js Link component
   }
 
   const handleLogout = () => {
@@ -87,11 +88,11 @@ export function Sidebar() {
 
   return (
     <TooltipProvider delayDuration={200}>
-      <aside className="w-72 bg-[oklch(0.1_0.02_250)] border-r border-border/50 flex flex-col fixed left-0 top-0 h-screen z-40">
+      <aside className="w-72 bg-[oklch(0.1_0.02_250)] border-r border-border/50 flex flex-col fixed left-0 top-0 h-screen z-40" role="navigation" aria-label="Menu principal">
         {/* Logo & Header */}
         <div className="p-6 border-b border-border/50">
-          <Link href="/" className="flex items-center gap-3 group" onClick={() => handleNavClick("/", "Logo")}>
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center transition-transform group-hover:scale-105">
+          <Link href="/" className="flex items-center gap-3 group" onClick={() => handleNavClick("/", "Logo")} aria-label="Voltar para o dashboard">
+            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center transition-transform group-hover:scale-105" aria-hidden="true">
               <Crown className="w-7 h-7 text-white" />
             </div>
             <div>
@@ -181,8 +182,10 @@ export function Sidebar() {
                       ? "bg-[oklch(0.18_0.03_250)] text-foreground shadow-lg shadow-primary/10 scale-[1.02]"
                       : "text-muted-foreground hover:bg-[oklch(0.15_0.025_250)] hover:text-foreground hover:translate-x-1",
                   )}
+                  aria-current={pathname === item.href ? "page" : undefined}
+                  aria-label={item.label}
                 >
-                  <item.icon className="w-5 h-5" />
+                  <item.icon className="w-5 h-5" aria-hidden="true" />
                   {item.label}
                 </Link>
               </TooltipTrigger>
@@ -198,12 +201,13 @@ export function Sidebar() {
           <button
             onClick={handleLogout}
             className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-muted-foreground hover:bg-[oklch(0.15_0.025_250)] hover:text-red-400 transition-all duration-200 w-full hover:translate-x-1"
+            aria-label="Sair da conta"
           >
-            <LogOut className="w-5 h-5" />
+            <LogOut className="w-5 h-5" aria-hidden="true" />
             Sair da Conta
           </button>
         </div>
       </aside>
     </TooltipProvider>
   )
-}
+})
