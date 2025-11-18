@@ -486,8 +486,9 @@ O estado global é gerenciado com **Zustand** e persiste automaticamente no **lo
 
 ## 👥 Integrantes do Grupo
 
-- **Mayke Costa Santos** - RM: 200544368
-- Email: maykecostasantos12@gmail.com
+- **Mayke Costa Santos** - RM: 562680
+  - Email: maykecostasantos12@gmail.com
+- **Arthur Márcio** - RM: 563359
 
 ## 🔑 Usuários e Senhas
 
