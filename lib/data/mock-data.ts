@@ -80,7 +80,7 @@ export interface Reward {
 export const mockUser: User = {
   id: "1",
   name: "Mayke Costa santos",
-  email: "maykecostasantos12@gmail.com",
+  email: "usuario@exemplo.com",
   level: 1,
   xp: 0,
   xpToNextLevel: 100,
