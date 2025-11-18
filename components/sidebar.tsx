@@ -88,7 +88,11 @@ export const Sidebar = memo(function Sidebar() {
 
   return (
     <TooltipProvider delayDuration={200}>
-      <aside className="w-72 bg-[oklch(0.1_0.02_250)] border-r border-border/50 flex flex-col fixed left-0 top-0 h-screen z-40" role="navigation" aria-label="Menu principal">
+      <aside 
+        className="w-72 bg-[oklch(0.1_0.02_250)] border-r border-border/50 flex flex-col fixed left-0 top-0 h-screen z-50 hidden md:flex" 
+        role="navigation" 
+        aria-label="Menu principal"
+      >
         {/* Logo & Header */}
         <div className="p-6 border-b border-border/50">
           <Link href="/" className="flex items-center gap-3 group" onClick={() => handleNavClick("/", "Logo")} aria-label="Voltar para o dashboard">

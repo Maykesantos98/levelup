@@ -91,22 +91,22 @@ export default function RedeProfissional() {
   }
 
   return (
-    <div className="min-h-screen bg-background p-6">
+    <div className="min-h-screen p-6">
       {/* Header */}
-      <div className="mb-8">
+      <div className="mb-6">
         <div className="flex items-center gap-3 mb-2">
           <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
             <Users className="w-7 h-7 text-white" />
           </div>
           <div>
-            <h1 className="text-4xl font-bold text-foreground">Rede Profissional</h1>
-            <p className="text-muted-foreground">Conecte-se com profissionais de diversas áreas</p>
+            <h1 className="text-2xl md:text-4xl font-bold text-foreground">Rede Profissional</h1>
+            <p className="text-sm md:text-base text-muted-foreground">Conecte-se com profissionais de diversas áreas</p>
           </div>
         </div>
       </div>
 
       {/* Search and Filters */}
-      <div className="bg-card rounded-xl p-6 mb-6 border border-border/50">
+      <div className="bg-card rounded-xl p-4 md:p-6 mb-6 border border-border/50">
         <div className="relative mb-4">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
           <Input
@@ -123,7 +123,7 @@ export default function RedeProfissional() {
           <span className="font-semibold">Filtros</span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Area Filter */}
           <div>
             <label className="text-sm text-muted-foreground mb-2 block">Área</label>
@@ -179,12 +179,12 @@ export default function RedeProfissional() {
       </div>
 
       {/* Professional Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
         {filteredProfessionals.map((prof) => (
           <div
             key={prof.id}
             onClick={() => setSelectedProfessional(prof)}
-            className="bg-card rounded-xl p-6 border border-border/50 hover:border-primary/50 transition-all cursor-pointer hover:scale-105 hover:shadow-lg"
+            className="bg-card rounded-xl p-6 border border-border/50 hover:border-primary/50 transition-all cursor-pointer hover:scale-105 hover:shadow-lg min-h-[280px] flex flex-col"
           >
             <div className="flex flex-col items-center text-center">
               <img
@@ -217,7 +217,7 @@ export default function RedeProfissional() {
 
       {/* Professional Detail Modal */}
       <Dialog open={!!selectedProfessional} onOpenChange={() => setSelectedProfessional(null)}>
-        <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+        <DialogContent className="max-w-4xl h-[85vh] overflow-y-auto">
           {selectedProfessional && (
             <div>
               <DialogHeader>

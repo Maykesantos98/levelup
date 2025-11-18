@@ -1,6 +1,6 @@
 "use client"
 
-import { Sparkles, Target, Award, TrendingUp, Flame, Brain } from "lucide-react"
+import { Sparkles, Target, Award, TrendingUp, Flame, Brain } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -11,24 +11,24 @@ export default function DashboardPage() {
   const activeMissions = missions.filter((m) => m.isActive)
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen p-6">
       {/* Hero Section with Gradient */}
-      <div className="relative bg-gradient-to-br from-[oklch(0.45_0.25_290)] via-[oklch(0.35_0.2_265)] to-[oklch(0.25_0.15_240)] px-8 py-12">
+      <div className="relative bg-gradient-to-br from-[oklch(0.45_0.25_290)] via-[oklch(0.35_0.2_265)] to-[oklch(0.25_0.15_240)] px-6 md:px-8 py-12 rounded-2xl mb-8">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" />
         <div className="max-w-7xl mx-auto relative">
           <div className="flex items-center gap-2 mb-3">
             <Sparkles className="w-6 h-6 text-yellow-400 animate-pulse" />
-            <h1 className="text-4xl font-bold text-white">
+            <h1 className="text-2xl md:text-4xl font-bold text-white">
               Bem-vindo de volta, <span className="text-yellow-400">{user.name.split(" ")[0]}!</span>
             </h1>
           </div>
-          <p className="text-blue-100 text-lg">Continue sua jornada de aprendizado e conquiste novos objetivos</p>
+          <p className="text-blue-100 text-sm md:text-lg">Continue sua jornada de aprendizado e conquiste novos objetivos</p>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-8 py-8 space-y-8">
+      <div className="max-w-7xl mx-auto space-y-6">
         {/* Stats Grid */}
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <Card className="border border-border hover:border-blue-500/50 transition-all hover:scale-105 cursor-pointer group">
             <CardContent className="p-6">
               <div className="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-500/30 transition-colors">

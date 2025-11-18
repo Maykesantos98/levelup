@@ -128,6 +128,11 @@
     @apply bg-background text-foreground;
   }
 
+  /* Added smooth scroll behavior for better UX */
+  html {
+    scroll-behavior: smooth;
+  }
+
   /* Custom scrollbar styling */
   ::-webkit-scrollbar {
     width: 8px;
@@ -144,7 +149,7 @@
     background: oklch(0.35 0.025 250);
   }
 
-  /* Added smooth transitions for all interactive elements */
+  /* Improved animation keyframes with better performance */
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -167,6 +172,18 @@
     }
   }
 
+  /* Added scale animation for interactive elements */
+  @keyframes scaleIn {
+    from {
+      transform: scale(0.95);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
   /* Added focus visible styles for accessibility */
   *:focus-visible {
     @apply outline-2 outline-offset-2 outline-primary;
@@ -177,5 +194,10 @@
   a,
   input {
     @apply transition-all duration-200 ease-out;
+  }
+
+  /* Added utility class for consistent card heights */
+  .card-consistent {
+    @apply min-h-[200px];
   }
 }
